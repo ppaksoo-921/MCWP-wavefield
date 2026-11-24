@@ -1,0 +1,158 @@
+{
+  "dataset": "pluto",
+  "source": {
+    "dataset": "Pluto 1.5",
+    "source_filename": "int_depth_vp.sgy",
+    "source_sha256": "a435334df891ca3c1835f71ac76362028af3b1fb7ba651bcf1a18df408446e9b",
+    "shape_zx": [
+      1201,
+      6960
+    ],
+    "original_velocity_unit": "ft/s",
+    "output_velocity_unit": "m/s",
+    "multiplier": 0.3048,
+    "vp_min_mps": 1494.4915771484375,
+    "vp_max_mps": 4511.0400390625,
+    "dtype": "float32",
+    "conversion_max_rounding_error_mps": 0.00024374999975407263,
+    "original_dx_dz_ft": [
+      25,
+      25
+    ],
+    "original_dx_dz_m": [
+      7.62,
+      7.62
+    ],
+    "origin": "Grid indices used; absolute survey origin is not inferred from zero coordinate headers.",
+    "segy_coordinate_note": "Velocity values are m/s; distance headers and the depth sampling description remain in feet.",
+    "no_clipping": true,
+    "no_range_matching": true,
+    "no_velocity_normalization": true,
+    "source_attribution": "SMAART JV, Pluto 1.5; original source usage terms continue to apply."
+  },
+  "models": [
+    {
+      "model_id": 1,
+      "name": "Pluto_01_Left",
+      "path": "velocity_models/Pluto_01_Left_128.npz",
+      "sha256": "07ef8125dedc91c1730bd05da11f78f7c52ec13c862138d31e81009078f41de7",
+      "source_window_zx_half_open": [
+        0,
+        1201,
+        1450,
+        2651
+      ],
+      "purpose": "left salt flank and underlying sediments",
+      "vp_min_mps": 1499.5919189453125,
+      "vp_max_mps": 4511.0400390625,
+      "original_crop_shape": [
+        1201,
+        1201
+      ],
+      "original_crop_node_span_m": 9144.0,
+      "resampling": "bilinear 1201x1201 -> 256x256 -> 128x128; no Gaussian filter",
+      "shape": [
+        128,
+        128
+      ],
+      "fd_dx_m": 10.0,
+      "fd_dz_m": 10.0,
+      "shots_x": [
+        25,
+        38,
+        62,
+        105,
+        126
+      ]
+    },
+    {
+      "model_id": 2,
+      "name": "Pluto_02_Central",
+      "path": "velocity_models/Pluto_02_Central_128.npz",
+      "sha256": "0a6fefbf5e0077f28ccd74fb594e420fb877cd127fd3f921b7c439df3bf5992c",
+      "source_window_zx_half_open": [
+        0,
+        1201,
+        3300,
+        4501
+      ],
+      "purpose": "central salt body, basal boundary and right flank",
+      "vp_min_mps": 1499.5977783203125,
+      "vp_max_mps": 4511.0400390625,
+      "original_crop_shape": [
+        1201,
+        1201
+      ],
+      "original_crop_node_span_m": 9144.0,
+      "resampling": "bilinear 1201x1201 -> 256x256 -> 128x128; no Gaussian filter",
+      "shape": [
+        128,
+        128
+      ],
+      "fd_dx_m": 10.0,
+      "fd_dz_m": 10.0,
+      "shots_x": [
+        25,
+        38,
+        62,
+        105,
+        126
+      ]
+    },
+    {
+      "model_id": 3,
+      "name": "Pluto_03_Right",
+      "path": "velocity_models/Pluto_03_Right_128.npz",
+      "sha256": "412e61ff57f7218810846d4ab6375f9735fa12145ea8c320dc4664ad9657bc0f",
+      "source_window_zx_half_open": [
+        0,
+        1201,
+        4500,
+        5701
+      ],
+      "purpose": "right salt body and surrounding sediments",
+      "vp_min_mps": 1499.5968017578125,
+      "vp_max_mps": 4511.0400390625,
+      "original_crop_shape": [
+        1201,
+        1201
+      ],
+      "original_crop_node_span_m": 9144.0,
+      "resampling": "bilinear 1201x1201 -> 256x256 -> 128x128; no Gaussian filter",
+      "shape": [
+        128,
+        128
+      ],
+      "fd_dx_m": 10.0,
+      "fd_dz_m": 10.0,
+      "shots_x": [
+        25,
+        38,
+        62,
+        105,
+        126
+      ]
+    }
+  ],
+  "model_count": 3,
+  "shot_count": 15,
+  "forecast_frames": 100,
+  "initial_reference_frames": 1,
+  "snapshot_interval_s": 0.01,
+  "fd": {
+    "dx_m": 10,
+    "dz_m": 10,
+    "dt_s": 0.001,
+    "nt": 1001,
+    "ricker_hz": 15,
+    "pml_cells": 50,
+    "time_downsample": 10,
+    "density": 1
+  },
+  "case_order": "model_id ascending then shot index ascending",
+  "case_index_start": 51,
+  "genwp_seed_start": 5100,
+  "evaluation_note": "New geology-family evaluation, velocity values inside the original training range. Three crops share one geological parent.",
+  "geometric_note": "Regional square crops preserve relative x:z geometry. The 128-grid FD benchmark uses 10m spacing, so this is a rescaled benchmark, not propagation over the original 9.144km crop at its original physical scale.",
+  "selection_note": "Coordinates fixed using only the input geological structure before any FD or learned-model result."
+}

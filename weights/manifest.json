@@ -1,0 +1,29 @@
+{
+  "mcwp_final_ema_004000.pt": {
+    "size_bytes": 25308239,
+    "sha256": "fd54d4c20534d0b5960058fa9f9441308eaaa0c46f2a31e6d8a4e1901141d15e"
+  },
+  "mcwp_base_ema_100000.pt": {
+    "size_bytes": 25307471,
+    "sha256": "5a2bafc1fe1d553dd69319b9195b490ea9dae63f0bccaf3dcc71e4db84a06e9e"
+  },
+  "fno_ema_100000.pt": {
+    "size_bytes": 21493804,
+    "sha256": "9009d0fb3a425599f540915449aa9216e68c27d11f4011f4a93e4bdcd59f82a5"
+  },
+  "monolithic_ema_100000.pt": {
+    "size_bytes": 25295561,
+    "sha256": "57351497ec4a54f3a9ed13b7089b1ebb200e24553e81ede6ac72ec30c7714511"
+  },
+  "static_fusion_ema_100000.pt": {
+    "size_bytes": 25297053,
+    "sha256": "7cd5586bde825daf07e4844bbe8b5fbb421f350767c715c07749d1ac1136b674"
+  },
+  "genwp_retrained_ema_0.999_100000.pt (separate GitHub Release)": {
+    "size_bytes": 503340821,
+    "sha256": "ceba73e1eaf379081cdbfad7f3f4a4e19696bb9cd276ad3a35474d22a6bfe6b1"
+  },
+  "genwp_published_trained_model.pt (upstream Zenodo)": {
+    "sha256": "7f174ef7501ec6f15b457be3801e4b34b2390710f613521bc07d8082a58aecea"
+  }
+}

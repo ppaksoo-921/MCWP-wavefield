@@ -1,0 +1,114 @@
+{
+  "presets": {
+    "base": {
+      "architecture": "full",
+      "horizon": 3,
+      "update": "second_order",
+      "required": false
+    },
+    "monolithic": {
+      "architecture": "monolithic",
+      "horizon": 3,
+      "update": "second_order",
+      "required": true
+    },
+    "static_fusion": {
+      "architecture": "static_fusion",
+      "horizon": 3,
+      "update": "second_order",
+      "required": true
+    },
+    "horizon1": {
+      "architecture": "full",
+      "horizon": 1,
+      "update": "second_order",
+      "required": true
+    },
+    "first_order": {
+      "architecture": "full",
+      "horizon": 3,
+      "update": "first_order",
+      "required": true
+    },
+    "monolithic_h1": {
+      "architecture": "monolithic",
+      "horizon": 1,
+      "update": "second_order",
+      "required": false
+    }
+  },
+  "parameters": [
+    {
+      "variant": "base",
+      "parameters": 6307702,
+      "difference_pct": 0.0,
+      "architecture": "full",
+      "horizon": 3,
+      "update": "second_order",
+      "required": false
+    },
+    {
+      "variant": "monolithic",
+      "parameters": 6309446,
+      "difference_pct": 0.027648738003160922,
+      "architecture": "monolithic",
+      "horizon": 3,
+      "update": "second_order",
+      "required": true
+    },
+    {
+      "variant": "static_fusion",
+      "parameters": 6305654,
+      "difference_pct": -0.03246824279270477,
+      "architecture": "static_fusion",
+      "horizon": 3,
+      "update": "second_order",
+      "required": true
+    },
+    {
+      "variant": "horizon1",
+      "parameters": 6307702,
+      "difference_pct": 0.0,
+      "architecture": "full",
+      "horizon": 1,
+      "update": "second_order",
+      "required": true
+    },
+    {
+      "variant": "first_order",
+      "parameters": 6307702,
+      "difference_pct": 0.0,
+      "architecture": "full",
+      "horizon": 3,
+      "update": "first_order",
+      "required": true
+    },
+    {
+      "variant": "monolithic_h1",
+      "parameters": 6309446,
+      "difference_pct": 0.027648738003160922,
+      "architecture": "monolithic",
+      "horizon": 1,
+      "update": "second_order",
+      "required": false
+    }
+  ],
+  "default_training": {
+    "global_batch": 36,
+    "seed": 20260909,
+    "precision": "FP32",
+    "lr": 0.0001,
+    "ema": 0.999,
+    "horizon": "preset",
+    "physics_loss": false,
+    "causal_weighting": "unchanged MCWP Base"
+  },
+  "main_comparison_target_updates": 100000,
+  "development_target_updates": 20000,
+  "cautions": [
+    "Use independent fresh starts for different presets.",
+    "Equal parameter counts do not imply equal topology, FLOPs or supervision counts.",
+    "The official six-case test set is not a validation set for tuning.",
+    "No preset is guaranteed to underperform the full MCWP. Negative ablations are scientifically valid."
+  ]
+}

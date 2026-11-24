@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "sweep_results": "/home/ppaksoo/Wage_surrogate/results/redsea_velocity_sweep_20261013_222242",
+  "alphas": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "case_count_per_alpha": 20,
+  "reused_protocol_sha256": "c2e3476a44d38972722e21a6f31485cbab7cf69ab0eab83df5aabeb8758f3b8a",
+  "reused_metrics_sha256": "11082749a1872e2c68bb589bafd7e25c6c3c8bff7f38c1c9eff3f6b5f9048e9c",
+  "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028",
+  "models": [
+    {
+      "label": "GenWP_Authors",
+      "checkpoint": "/home/ppaksoo/Wage_surrogate/GenWP-pub/genwp/checkpoints/trained_model.pt",
+      "checkpoint_sha256": "7f174ef7501ec6f15b457be3801e4b34b2390710f613521bc07d8082a58aecea",
+      "parity": {
+        "max_abs": 0.0,
+        "relative_l2": 0.0,
+        "fixture_sha256": "d7c56593a7fa7f950b1d047c7b8a3e34f927920c1c7bc4f695e7419c962f4262",
+        "seed": 2100
+      }
+    },
+    {
+      "label": "GenWP_Retrained_100k",
+      "checkpoint": "/home/ppaksoo/Wage_surrogate/GenWP-pub/experiments/genwp_ddp_20k/checkpoints/ema_0.999_100000.pt",
+      "checkpoint_sha256": "ceba73e1eaf379081cdbfad7f3f4a4e19696bb9cd276ad3a35474d22a6bfe6b1",
+      "parity": {
+        "max_abs": 0.0,
+        "relative_l2": 0.0,
+        "fixture_sha256": "d7c56593a7fa7f950b1d047c7b8a3e34f927920c1c7bc4f695e7419c962f4262",
+        "seed": 2100
+      }
+    }
+  ],
+  "original_fd_recomputed": false,
+  "MCWP_FNO_recomputed": false,
+  "genwp_noise": "Fixed once per case; same per-case seed for both versions and every alpha.",
+  "seed_registry": "Original source metadata when available; otherwise original Red Sea study registry 2100 + 100*ordinal.",
+  "prediction": "Initial condition from the matching FD reference, 100 free steps; no future GT input",
+  "metrics": "Case-level MAE/MSE/whole-trajectory relative L2 then arithmetic mean of 20 cases; SD across dependent cases, no significance test.",
+  "precision": "FP32 / TF32 off",
+  "torch_version": "1.12.1",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "runtime_measured": false
+}

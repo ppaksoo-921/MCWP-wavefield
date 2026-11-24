@@ -1,0 +1,7 @@
+variant,parameters,difference_pct,architecture,horizon,update,required
+base,6307702,0.0,full,3,second_order,False
+monolithic,6309446,0.027648738003160922,monolithic,3,second_order,True
+static_fusion,6305654,-0.03246824279270477,static_fusion,3,second_order,True
+horizon1,6307702,0.0,full,1,second_order,True
+first_order,6307702,0.0,full,3,first_order,True
+monolithic_h1,6309446,0.027648738003160922,monolithic,1,second_order,False

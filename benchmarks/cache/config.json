@@ -1,0 +1,10 @@
+{
+  "study_root": "/home/ppaksoo/Wage_surrogate",
+  "checkpoint": "mcwp_nccshift_v3/runs/long100_mseonly_ft5k/eval_checkpoints/ema_004000.pt",
+  "fd_source": "GenWP-pub/dataset/data_gen/fd_torch.py",
+  "marmousi_run_dir": "Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000",
+  "device": "cuda:8",
+  "warmup": 2,
+  "repeats": 7,
+  "case_overrides": {}
+}

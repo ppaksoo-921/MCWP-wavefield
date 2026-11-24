@@ -1,0 +1,4418 @@
+{
+  "original_cases": [
+    {
+      "case": "RedSea_vel1_shot1",
+      "model_id": 1,
+      "shot": 1,
+      "loc_x": 25,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot1.npz",
+      "original_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+      "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+      "rescaled_velocity_sha256": "6d77c34de858ae7b79633e698b48d87c3e81cc4d4026b5819d1eec2f78b97843"
+    },
+    {
+      "case": "RedSea_vel1_shot2",
+      "model_id": 1,
+      "shot": 2,
+      "loc_x": 38,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot2.npz",
+      "original_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+      "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+      "rescaled_velocity_sha256": "6d77c34de858ae7b79633e698b48d87c3e81cc4d4026b5819d1eec2f78b97843"
+    },
+    {
+      "case": "RedSea_vel1_shot3",
+      "model_id": 1,
+      "shot": 3,
+      "loc_x": 62,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot3.npz",
+      "original_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+      "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+      "rescaled_velocity_sha256": "6d77c34de858ae7b79633e698b48d87c3e81cc4d4026b5819d1eec2f78b97843"
+    },
+    {
+      "case": "RedSea_vel1_shot4",
+      "model_id": 1,
+      "shot": 4,
+      "loc_x": 105,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot4.npz",
+      "original_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+      "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+      "rescaled_velocity_sha256": "6d77c34de858ae7b79633e698b48d87c3e81cc4d4026b5819d1eec2f78b97843"
+    },
+    {
+      "case": "RedSea_vel1_shot5",
+      "model_id": 1,
+      "shot": 5,
+      "loc_x": 126,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot5.npz",
+      "original_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+      "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+      "rescaled_velocity_sha256": "6d77c34de858ae7b79633e698b48d87c3e81cc4d4026b5819d1eec2f78b97843"
+    },
+    {
+      "case": "RedSea_vel2_shot1",
+      "model_id": 2,
+      "shot": 1,
+      "loc_x": 25,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot1.npz",
+      "original_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+      "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+      "rescaled_velocity_sha256": "d1e3780de203700575897e47575e6b2352ef89002b89e6f996f920fb35c024b0"
+    },
+    {
+      "case": "RedSea_vel2_shot2",
+      "model_id": 2,
+      "shot": 2,
+      "loc_x": 38,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot2.npz",
+      "original_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+      "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+      "rescaled_velocity_sha256": "d1e3780de203700575897e47575e6b2352ef89002b89e6f996f920fb35c024b0"
+    },
+    {
+      "case": "RedSea_vel2_shot3",
+      "model_id": 2,
+      "shot": 3,
+      "loc_x": 62,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot3.npz",
+      "original_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+      "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+      "rescaled_velocity_sha256": "d1e3780de203700575897e47575e6b2352ef89002b89e6f996f920fb35c024b0"
+    },
+    {
+      "case": "RedSea_vel2_shot4",
+      "model_id": 2,
+      "shot": 4,
+      "loc_x": 105,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot4.npz",
+      "original_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+      "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+      "rescaled_velocity_sha256": "d1e3780de203700575897e47575e6b2352ef89002b89e6f996f920fb35c024b0"
+    },
+    {
+      "case": "RedSea_vel2_shot5",
+      "model_id": 2,
+      "shot": 5,
+      "loc_x": 126,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot5.npz",
+      "original_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+      "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+      "rescaled_velocity_sha256": "d1e3780de203700575897e47575e6b2352ef89002b89e6f996f920fb35c024b0"
+    },
+    {
+      "case": "RedSea_vel3_shot1",
+      "model_id": 3,
+      "shot": 1,
+      "loc_x": 25,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot1.npz",
+      "original_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+      "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+      "rescaled_velocity_sha256": "5f1bbe51514fe076fbaa45aa3b104fb32a0f90c569f16aa665b3d585a0ec56b4"
+    },
+    {
+      "case": "RedSea_vel3_shot2",
+      "model_id": 3,
+      "shot": 2,
+      "loc_x": 38,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot2.npz",
+      "original_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+      "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+      "rescaled_velocity_sha256": "5f1bbe51514fe076fbaa45aa3b104fb32a0f90c569f16aa665b3d585a0ec56b4"
+    },
+    {
+      "case": "RedSea_vel3_shot3",
+      "model_id": 3,
+      "shot": 3,
+      "loc_x": 62,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot3.npz",
+      "original_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+      "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+      "rescaled_velocity_sha256": "5f1bbe51514fe076fbaa45aa3b104fb32a0f90c569f16aa665b3d585a0ec56b4"
+    },
+    {
+      "case": "RedSea_vel3_shot4",
+      "model_id": 3,
+      "shot": 4,
+      "loc_x": 105,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot4.npz",
+      "original_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+      "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+      "rescaled_velocity_sha256": "5f1bbe51514fe076fbaa45aa3b104fb32a0f90c569f16aa665b3d585a0ec56b4"
+    },
+    {
+      "case": "RedSea_vel3_shot5",
+      "model_id": 3,
+      "shot": 5,
+      "loc_x": 126,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot5.npz",
+      "original_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+      "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+      "rescaled_velocity_sha256": "5f1bbe51514fe076fbaa45aa3b104fb32a0f90c569f16aa665b3d585a0ec56b4"
+    },
+    {
+      "case": "RedSea_vel4_shot1",
+      "model_id": 4,
+      "shot": 1,
+      "loc_x": 25,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot1.npz",
+      "original_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+      "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+      "rescaled_velocity_sha256": "8b8192a43553a7b0490783f9373c31021d7548ef6e26f965c8fa318ba0316d73"
+    },
+    {
+      "case": "RedSea_vel4_shot2",
+      "model_id": 4,
+      "shot": 2,
+      "loc_x": 38,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot2.npz",
+      "original_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+      "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+      "rescaled_velocity_sha256": "8b8192a43553a7b0490783f9373c31021d7548ef6e26f965c8fa318ba0316d73"
+    },
+    {
+      "case": "RedSea_vel4_shot3",
+      "model_id": 4,
+      "shot": 3,
+      "loc_x": 62,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot3.npz",
+      "original_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+      "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+      "rescaled_velocity_sha256": "8b8192a43553a7b0490783f9373c31021d7548ef6e26f965c8fa318ba0316d73"
+    },
+    {
+      "case": "RedSea_vel4_shot4",
+      "model_id": 4,
+      "shot": 4,
+      "loc_x": 105,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot4.npz",
+      "original_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+      "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+      "rescaled_velocity_sha256": "8b8192a43553a7b0490783f9373c31021d7548ef6e26f965c8fa318ba0316d73"
+    },
+    {
+      "case": "RedSea_vel4_shot5",
+      "model_id": 4,
+      "shot": 5,
+      "loc_x": 126,
+      "original_path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot5.npz",
+      "original_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+      "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+      "rescaled_velocity_sha256": "8b8192a43553a7b0490783f9373c31021d7548ef6e26f965c8fa318ba0316d73"
+    }
+  ],
+  "intermediate_conditions": {
+    "0.05": [
+      {
+        "case": "RedSea_vel1_shot1",
+        "model_id": 1,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel1_shot1.npz",
+        "sha256": "2973deb2b1b7e6e3395e61ffeb04ddf8adbcf597534d6f38500375a65cd2be50",
+        "signature": {
+          "original_case_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "433ef323e781527a5ec48fde1d2a5a1a5d52bfcc37e3adee3305fd4c38ef384a",
+          "loc_x": 25,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot2",
+        "model_id": 1,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel1_shot2.npz",
+        "sha256": "eee70ca4e39a3ec60e31c36de77d9cd9adf22c3b15e8d86e9c8cd32a59908e06",
+        "signature": {
+          "original_case_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "433ef323e781527a5ec48fde1d2a5a1a5d52bfcc37e3adee3305fd4c38ef384a",
+          "loc_x": 38,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot3",
+        "model_id": 1,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel1_shot3.npz",
+        "sha256": "c64b3ddb9d8f9eff81a50dcb0d375ee19da9b817716511e6a8d6f94ca225c238",
+        "signature": {
+          "original_case_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "433ef323e781527a5ec48fde1d2a5a1a5d52bfcc37e3adee3305fd4c38ef384a",
+          "loc_x": 62,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot4",
+        "model_id": 1,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel1_shot4.npz",
+        "sha256": "6fb69c041b7e749919fcf4b27063b3ab02c73e3d0e8d28b7cdc0b620e113bfcb",
+        "signature": {
+          "original_case_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "433ef323e781527a5ec48fde1d2a5a1a5d52bfcc37e3adee3305fd4c38ef384a",
+          "loc_x": 105,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot5",
+        "model_id": 1,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel1_shot5.npz",
+        "sha256": "96ca07f12ba8bb48c42f8d8fb7445a55fde4938a553f6f40743728351a60236b",
+        "signature": {
+          "original_case_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "433ef323e781527a5ec48fde1d2a5a1a5d52bfcc37e3adee3305fd4c38ef384a",
+          "loc_x": 126,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot1",
+        "model_id": 2,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel2_shot1.npz",
+        "sha256": "6d12f534b04d90a8f5a74ff6841fb6b79a6ac215301d3fb626f4036c66f6bc3b",
+        "signature": {
+          "original_case_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "30b978cc23044fbc68dffc045125c5befab99ddb31210dfc70be11b9400fc482",
+          "loc_x": 25,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot2",
+        "model_id": 2,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel2_shot2.npz",
+        "sha256": "981c0f4ae8c22b6cf3ca52f9090fc41f38f2105909be0d8bd4dac7734e36fc01",
+        "signature": {
+          "original_case_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "30b978cc23044fbc68dffc045125c5befab99ddb31210dfc70be11b9400fc482",
+          "loc_x": 38,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot3",
+        "model_id": 2,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel2_shot3.npz",
+        "sha256": "93bc7a3bf058d25817f90ac876ae3682674ebc1c88df4cf3cda107ca36d390e8",
+        "signature": {
+          "original_case_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "30b978cc23044fbc68dffc045125c5befab99ddb31210dfc70be11b9400fc482",
+          "loc_x": 62,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot4",
+        "model_id": 2,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel2_shot4.npz",
+        "sha256": "e170602b1cef105f458d988fdfdd3a705df7ca203b2c91f7c033fdf6362004f8",
+        "signature": {
+          "original_case_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "30b978cc23044fbc68dffc045125c5befab99ddb31210dfc70be11b9400fc482",
+          "loc_x": 105,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot5",
+        "model_id": 2,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel2_shot5.npz",
+        "sha256": "2deca61ebc2897b4421b3f532eeb43f9667bb696c78e69076e5d09c75eda1a8a",
+        "signature": {
+          "original_case_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "30b978cc23044fbc68dffc045125c5befab99ddb31210dfc70be11b9400fc482",
+          "loc_x": 126,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot1",
+        "model_id": 3,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel3_shot1.npz",
+        "sha256": "799e54a4d7e33e98e0e7fc8a02cbc9280c7ed35bf8741beba3769d2f09e3fc49",
+        "signature": {
+          "original_case_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "67ffe321f49d4746bc67eb53d51ac04c14ccada7e5d6c0402ce01d2d189bd112",
+          "loc_x": 25,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot2",
+        "model_id": 3,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel3_shot2.npz",
+        "sha256": "ce6cdcbc23d1faec73336d5ebd8977554ec625889bf7400d80268f98e50d8d31",
+        "signature": {
+          "original_case_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "67ffe321f49d4746bc67eb53d51ac04c14ccada7e5d6c0402ce01d2d189bd112",
+          "loc_x": 38,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot3",
+        "model_id": 3,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel3_shot3.npz",
+        "sha256": "3dc07b6b346d057c79e9aac8b79ee00f9ec088b8f3de6443f11c36eead74722c",
+        "signature": {
+          "original_case_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "67ffe321f49d4746bc67eb53d51ac04c14ccada7e5d6c0402ce01d2d189bd112",
+          "loc_x": 62,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot4",
+        "model_id": 3,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel3_shot4.npz",
+        "sha256": "87b33e8acc1cd340b6fdd73e94a9405ffda0aa16509e9fe70858e0b8b369b14f",
+        "signature": {
+          "original_case_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "67ffe321f49d4746bc67eb53d51ac04c14ccada7e5d6c0402ce01d2d189bd112",
+          "loc_x": 105,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot5",
+        "model_id": 3,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel3_shot5.npz",
+        "sha256": "79cba23ad08f4195749b11639def0e12fb1b07f02c0ca3ebe8d39f527e73df89",
+        "signature": {
+          "original_case_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "67ffe321f49d4746bc67eb53d51ac04c14ccada7e5d6c0402ce01d2d189bd112",
+          "loc_x": 126,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot1",
+        "model_id": 4,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel4_shot1.npz",
+        "sha256": "503077c956cd15ca5eda8e8a804c959da72a6e01b9533d2c0f959207e1729b23",
+        "signature": {
+          "original_case_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2619e367759efda02272129ec220df4a213e318cf92f66529193bf5a1b1450f4",
+          "loc_x": 25,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot2",
+        "model_id": 4,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel4_shot2.npz",
+        "sha256": "50cb76e89fd74b6f3bb1df19374e56bd1d20693808fcc608271d6661310a1184",
+        "signature": {
+          "original_case_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2619e367759efda02272129ec220df4a213e318cf92f66529193bf5a1b1450f4",
+          "loc_x": 38,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot3",
+        "model_id": 4,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel4_shot3.npz",
+        "sha256": "d7cfedef58b66bb1f3de1083ee3de78caa25e95e53946029e166f2710bd29aed",
+        "signature": {
+          "original_case_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2619e367759efda02272129ec220df4a213e318cf92f66529193bf5a1b1450f4",
+          "loc_x": 62,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot4",
+        "model_id": 4,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel4_shot4.npz",
+        "sha256": "088d75ee7493e8722c0962ac7b57e418b8e481ab254c9f4a2de5b310a23fc259",
+        "signature": {
+          "original_case_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2619e367759efda02272129ec220df4a213e318cf92f66529193bf5a1b1450f4",
+          "loc_x": 105,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot5",
+        "model_id": 4,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p050000/outputs/RedSea_vel4_shot5.npz",
+        "sha256": "13206b518ed1f96fe0dd3694c4839ac6b6bdba701a5cd9945cd793b43b570131",
+        "signature": {
+          "original_case_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2619e367759efda02272129ec220df4a213e318cf92f66529193bf5a1b1450f4",
+          "loc_x": 126,
+          "alpha": 0.05,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1477.5,
+            4975.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      }
+    ],
+    "0.1": [
+      {
+        "case": "RedSea_vel1_shot1",
+        "model_id": 1,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel1_shot1.npz",
+        "sha256": "31c53af4fd3378a781cf24e48a93a1ce2c6add1c089ee087f5087095ba8ec7a5",
+        "signature": {
+          "original_case_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "7500873899335d060dcea3a54be77db4331be4f25bb449df4f69fcc2f96b3897",
+          "loc_x": 25,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot2",
+        "model_id": 1,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel1_shot2.npz",
+        "sha256": "7f6ac4c40367d2a7b2a66c4b675a381274b8020a867821595b91566ec9885503",
+        "signature": {
+          "original_case_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "7500873899335d060dcea3a54be77db4331be4f25bb449df4f69fcc2f96b3897",
+          "loc_x": 38,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot3",
+        "model_id": 1,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel1_shot3.npz",
+        "sha256": "59f93b2d448d2f52a47aa4eaf4f236bb24e0c44cdbbcf19cedae8a1adf772c31",
+        "signature": {
+          "original_case_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "7500873899335d060dcea3a54be77db4331be4f25bb449df4f69fcc2f96b3897",
+          "loc_x": 62,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot4",
+        "model_id": 1,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel1_shot4.npz",
+        "sha256": "a07658a130ce4cabc2820051904ea8ac71bce331ec07bc5ff7b97bfbbfdb8b53",
+        "signature": {
+          "original_case_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "7500873899335d060dcea3a54be77db4331be4f25bb449df4f69fcc2f96b3897",
+          "loc_x": 105,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot5",
+        "model_id": 1,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel1_shot5.npz",
+        "sha256": "400d9ce854ccc468b47cf2ad02e1ce12a078e7ba79dac7fe049da82c97041915",
+        "signature": {
+          "original_case_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "7500873899335d060dcea3a54be77db4331be4f25bb449df4f69fcc2f96b3897",
+          "loc_x": 126,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot1",
+        "model_id": 2,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel2_shot1.npz",
+        "sha256": "7c3ecf1286844b5e1f1111052c58fce9d9981c74650346b01da9da42ec51dd56",
+        "signature": {
+          "original_case_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "d8716286d22bfa031d600753fff00eac15bd50cc7a4bdcbd92b74b734cc13f64",
+          "loc_x": 25,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot2",
+        "model_id": 2,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel2_shot2.npz",
+        "sha256": "b5b149af569705b3747c0e83bd216c7a12caef1b1277702a6610b2e9085dc86d",
+        "signature": {
+          "original_case_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "d8716286d22bfa031d600753fff00eac15bd50cc7a4bdcbd92b74b734cc13f64",
+          "loc_x": 38,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot3",
+        "model_id": 2,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel2_shot3.npz",
+        "sha256": "5fce5555876a126209bf3749104084d2271f62e9d3e41084dbbfee94f602cc44",
+        "signature": {
+          "original_case_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "d8716286d22bfa031d600753fff00eac15bd50cc7a4bdcbd92b74b734cc13f64",
+          "loc_x": 62,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot4",
+        "model_id": 2,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel2_shot4.npz",
+        "sha256": "9e3bbd25415d690e9ef3d63d0adb0668a54ee39cf45739cd345d790f469f7132",
+        "signature": {
+          "original_case_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "d8716286d22bfa031d600753fff00eac15bd50cc7a4bdcbd92b74b734cc13f64",
+          "loc_x": 105,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot5",
+        "model_id": 2,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel2_shot5.npz",
+        "sha256": "1c7e0c7841f03ac249d25187852234b3947752d704c466f82d22de3116b6d2cd",
+        "signature": {
+          "original_case_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "d8716286d22bfa031d600753fff00eac15bd50cc7a4bdcbd92b74b734cc13f64",
+          "loc_x": 126,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot1",
+        "model_id": 3,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel3_shot1.npz",
+        "sha256": "fb9bcfe841abe15da7da39e3cd108d08fc3c77c9b6a25051239660f49cda67de",
+        "signature": {
+          "original_case_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "002a9281633b27294e77ebb0ba7ce4daa6021b6d4f88a902133527294a07a4a7",
+          "loc_x": 25,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot2",
+        "model_id": 3,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel3_shot2.npz",
+        "sha256": "1127c56679611e211aae582927c4255d11910f01fdf4d1c4eda39a9383c4e26f",
+        "signature": {
+          "original_case_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "002a9281633b27294e77ebb0ba7ce4daa6021b6d4f88a902133527294a07a4a7",
+          "loc_x": 38,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot3",
+        "model_id": 3,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel3_shot3.npz",
+        "sha256": "88e456336009d6667e41800d5a6bccc42eb7d588652e04b6975f2a43f267ed8d",
+        "signature": {
+          "original_case_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "002a9281633b27294e77ebb0ba7ce4daa6021b6d4f88a902133527294a07a4a7",
+          "loc_x": 62,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot4",
+        "model_id": 3,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel3_shot4.npz",
+        "sha256": "0625ea94e507e66e4b9602868c5ed848040888e23435dc52b66ec8aba67ac19c",
+        "signature": {
+          "original_case_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "002a9281633b27294e77ebb0ba7ce4daa6021b6d4f88a902133527294a07a4a7",
+          "loc_x": 105,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot5",
+        "model_id": 3,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel3_shot5.npz",
+        "sha256": "1c5f14dc65f6cc65668be457471cafe04d250817c1f3de5589d524f4bafea232",
+        "signature": {
+          "original_case_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "002a9281633b27294e77ebb0ba7ce4daa6021b6d4f88a902133527294a07a4a7",
+          "loc_x": 126,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot1",
+        "model_id": 4,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel4_shot1.npz",
+        "sha256": "2e62b188aa2c45f23fbef1ba0c02cb996d2d48e4f0d364d7c41741b44b67a13f",
+        "signature": {
+          "original_case_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "d6c1ece6ae56014af47ebe452abec1bae1fc6b3bee4ae3bf43f48f01d9bc3c5e",
+          "loc_x": 25,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot2",
+        "model_id": 4,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel4_shot2.npz",
+        "sha256": "428e5ba86ae2141ff5cee54c7406f1c79483be67e40369800c6f1ba4b1b450ca",
+        "signature": {
+          "original_case_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "d6c1ece6ae56014af47ebe452abec1bae1fc6b3bee4ae3bf43f48f01d9bc3c5e",
+          "loc_x": 38,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot3",
+        "model_id": 4,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel4_shot3.npz",
+        "sha256": "8d7e24853caaab85e16cad9adc0662f83bdabdc0eaa3366b1de73aaa6d5cb138",
+        "signature": {
+          "original_case_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "d6c1ece6ae56014af47ebe452abec1bae1fc6b3bee4ae3bf43f48f01d9bc3c5e",
+          "loc_x": 62,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot4",
+        "model_id": 4,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel4_shot4.npz",
+        "sha256": "99cf6ace248c7bdd217faf29e12413c56f1b5ccefd6df1623b91f31523d6fa4a",
+        "signature": {
+          "original_case_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "d6c1ece6ae56014af47ebe452abec1bae1fc6b3bee4ae3bf43f48f01d9bc3c5e",
+          "loc_x": 105,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot5",
+        "model_id": 4,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p100000/outputs/RedSea_vel4_shot5.npz",
+        "sha256": "a03e58a916ad40faf542e0d0c3913188b8997a39b2ef2de102303151f33dba58",
+        "signature": {
+          "original_case_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "d6c1ece6ae56014af47ebe452abec1bae1fc6b3bee4ae3bf43f48f01d9bc3c5e",
+          "loc_x": 126,
+          "alpha": 0.1,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1505.0,
+            4950.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      }
+    ],
+    "0.2": [
+      {
+        "case": "RedSea_vel1_shot1",
+        "model_id": 1,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel1_shot1.npz",
+        "sha256": "e4e1d909797d3567c0d2bc3751ed2e384342dd7242f5af6c08a60891301fd5ad",
+        "signature": {
+          "original_case_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "77d1d0678879946b0d2f223e0ea52fee9dcca6b0315ac5f5bb347889bc3142b8",
+          "loc_x": 25,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot2",
+        "model_id": 1,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel1_shot2.npz",
+        "sha256": "ae545d33cd925960aaebca782154eccc6c44aec862ffa8bfbc980fa3e101fd1e",
+        "signature": {
+          "original_case_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "77d1d0678879946b0d2f223e0ea52fee9dcca6b0315ac5f5bb347889bc3142b8",
+          "loc_x": 38,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot3",
+        "model_id": 1,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel1_shot3.npz",
+        "sha256": "f4bc850a09a3dc71caf243baecc6de9474a38acfa347b379515be88e7acdb2b7",
+        "signature": {
+          "original_case_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "77d1d0678879946b0d2f223e0ea52fee9dcca6b0315ac5f5bb347889bc3142b8",
+          "loc_x": 62,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot4",
+        "model_id": 1,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel1_shot4.npz",
+        "sha256": "c2d22458d19cb74b60013470338ab086ea1f1a403f527a025feaaba4e8380fe0",
+        "signature": {
+          "original_case_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "77d1d0678879946b0d2f223e0ea52fee9dcca6b0315ac5f5bb347889bc3142b8",
+          "loc_x": 105,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot5",
+        "model_id": 1,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel1_shot5.npz",
+        "sha256": "2296b81a88aa860f7b805d333a083787a474eb9ad8befe3670253dd3b6dee5cf",
+        "signature": {
+          "original_case_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "77d1d0678879946b0d2f223e0ea52fee9dcca6b0315ac5f5bb347889bc3142b8",
+          "loc_x": 126,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot1",
+        "model_id": 2,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel2_shot1.npz",
+        "sha256": "ee98067eb8f9bee1b624f3da343902c25cf2539aba97c64dbdcfde25ae10ff57",
+        "signature": {
+          "original_case_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "49919606c0e2b1472a97055c2632ca73fd67f071119600791fa9f82065d47591",
+          "loc_x": 25,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot2",
+        "model_id": 2,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel2_shot2.npz",
+        "sha256": "731eddfbb4380e04970c01be286d0bb9539acf85edc1673ac6f22f6188ce7638",
+        "signature": {
+          "original_case_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "49919606c0e2b1472a97055c2632ca73fd67f071119600791fa9f82065d47591",
+          "loc_x": 38,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot3",
+        "model_id": 2,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel2_shot3.npz",
+        "sha256": "2a4126361671ab31a2c464f781d64585044fded9db072cf09693c017fbaac4e9",
+        "signature": {
+          "original_case_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "49919606c0e2b1472a97055c2632ca73fd67f071119600791fa9f82065d47591",
+          "loc_x": 62,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot4",
+        "model_id": 2,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel2_shot4.npz",
+        "sha256": "18adae33809423f6d2ee5335c02b6d675c56e00e52f524de83a2a28635021bce",
+        "signature": {
+          "original_case_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "49919606c0e2b1472a97055c2632ca73fd67f071119600791fa9f82065d47591",
+          "loc_x": 105,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot5",
+        "model_id": 2,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel2_shot5.npz",
+        "sha256": "74660e2e27b158678317bf20f32c081db7e3e630ac542422bd748c3611e878cd",
+        "signature": {
+          "original_case_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "49919606c0e2b1472a97055c2632ca73fd67f071119600791fa9f82065d47591",
+          "loc_x": 126,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot1",
+        "model_id": 3,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel3_shot1.npz",
+        "sha256": "142c698696197d76704ea9a4aa24f9757d72ccd63d0ece7db378070a87f98873",
+        "signature": {
+          "original_case_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "ad61a7abded4bc243b4bcb0a10ebb2f9bb83ea815dd4b68b0570223c18a508b3",
+          "loc_x": 25,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot2",
+        "model_id": 3,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel3_shot2.npz",
+        "sha256": "ee8e21dc81b056997236e2ce4aa06206d753dba0812d6a93fb0b1d795d49c789",
+        "signature": {
+          "original_case_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "ad61a7abded4bc243b4bcb0a10ebb2f9bb83ea815dd4b68b0570223c18a508b3",
+          "loc_x": 38,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot3",
+        "model_id": 3,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel3_shot3.npz",
+        "sha256": "353483c5839a2cedc41211e41f0f02910bc976473b650474cb101488893a6a56",
+        "signature": {
+          "original_case_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "ad61a7abded4bc243b4bcb0a10ebb2f9bb83ea815dd4b68b0570223c18a508b3",
+          "loc_x": 62,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot4",
+        "model_id": 3,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel3_shot4.npz",
+        "sha256": "60756949fb65f7c2630bf4e00cdd749e264af6d466f3e7e7cea6a24e7d379c1c",
+        "signature": {
+          "original_case_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "ad61a7abded4bc243b4bcb0a10ebb2f9bb83ea815dd4b68b0570223c18a508b3",
+          "loc_x": 105,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot5",
+        "model_id": 3,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel3_shot5.npz",
+        "sha256": "0c9c3a10a1bd49c50625446ed9688073f186d67bb279088cdc5f3f8d711d6df1",
+        "signature": {
+          "original_case_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "ad61a7abded4bc243b4bcb0a10ebb2f9bb83ea815dd4b68b0570223c18a508b3",
+          "loc_x": 126,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot1",
+        "model_id": 4,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel4_shot1.npz",
+        "sha256": "93604c98515e86bfaf2e72c1e9f0a9ff1fe639a1662c97fd12936ab9b4e06a53",
+        "signature": {
+          "original_case_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "68de78cda4285206e08e655fdfa744a55f12116ba75a6ed8bc02d91ddc26b4f2",
+          "loc_x": 25,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot2",
+        "model_id": 4,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel4_shot2.npz",
+        "sha256": "ac286d59825c660fcbb2352e388eefcfcefcd5e8072eacac969ffc7f60bfe538",
+        "signature": {
+          "original_case_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "68de78cda4285206e08e655fdfa744a55f12116ba75a6ed8bc02d91ddc26b4f2",
+          "loc_x": 38,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot3",
+        "model_id": 4,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel4_shot3.npz",
+        "sha256": "c834a22c50e6a3391a0087626904986aa66598f77faadac8f342ed4c69d4abb9",
+        "signature": {
+          "original_case_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "68de78cda4285206e08e655fdfa744a55f12116ba75a6ed8bc02d91ddc26b4f2",
+          "loc_x": 62,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot4",
+        "model_id": 4,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel4_shot4.npz",
+        "sha256": "d8120da95e78e7a2bef404686244831836f1affec3bab2b4e3ea63cc09f318b3",
+        "signature": {
+          "original_case_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "68de78cda4285206e08e655fdfa744a55f12116ba75a6ed8bc02d91ddc26b4f2",
+          "loc_x": 105,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot5",
+        "model_id": 4,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p200000/outputs/RedSea_vel4_shot5.npz",
+        "sha256": "8e41743bdfd05ff387f48a2cf14c43ee861140c5a5c4379d4deec270084df7fc",
+        "signature": {
+          "original_case_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "68de78cda4285206e08e655fdfa744a55f12116ba75a6ed8bc02d91ddc26b4f2",
+          "loc_x": 126,
+          "alpha": 0.2,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1560.0,
+            4900.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      }
+    ],
+    "0.4": [
+      {
+        "case": "RedSea_vel1_shot1",
+        "model_id": 1,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel1_shot1.npz",
+        "sha256": "0aa6bf84ca3e34ba603c19226df923d52ff7930992ef6454f0c5c34079d0b8be",
+        "signature": {
+          "original_case_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "c6b4d273fc2bd2e7475c8b39e37afac5e05ed33566f4f2d5d810c2fc55bf9bbf",
+          "loc_x": 25,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot2",
+        "model_id": 1,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel1_shot2.npz",
+        "sha256": "b6b07da4d8ab7fb9844b44e02e0b4c516f86e5ca0251aa919aa7b25403558f66",
+        "signature": {
+          "original_case_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "c6b4d273fc2bd2e7475c8b39e37afac5e05ed33566f4f2d5d810c2fc55bf9bbf",
+          "loc_x": 38,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot3",
+        "model_id": 1,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel1_shot3.npz",
+        "sha256": "7e8caa9744dcba5f6873b861ed95a42dfd7490140d98f556dce1e4a5b78f25fe",
+        "signature": {
+          "original_case_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "c6b4d273fc2bd2e7475c8b39e37afac5e05ed33566f4f2d5d810c2fc55bf9bbf",
+          "loc_x": 62,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot4",
+        "model_id": 1,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel1_shot4.npz",
+        "sha256": "4f6363c460cb925a84e1d3681cf61d70507659305d562f2dde3a0a349586c0c8",
+        "signature": {
+          "original_case_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "c6b4d273fc2bd2e7475c8b39e37afac5e05ed33566f4f2d5d810c2fc55bf9bbf",
+          "loc_x": 105,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot5",
+        "model_id": 1,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel1_shot5.npz",
+        "sha256": "6256c6839fe74d27686a4f71a256a2f5df130ed62b13be54341485f457ac60ff",
+        "signature": {
+          "original_case_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "c6b4d273fc2bd2e7475c8b39e37afac5e05ed33566f4f2d5d810c2fc55bf9bbf",
+          "loc_x": 126,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot1",
+        "model_id": 2,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel2_shot1.npz",
+        "sha256": "3ee2b1a4773b21c1b2b90ad887efa453b4bbc811f74030dfe6ec46a858fe1169",
+        "signature": {
+          "original_case_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "76381739a2093f43ef07cffcee240ac9cd1a94af077e7bd8e6754b07b4c06edc",
+          "loc_x": 25,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot2",
+        "model_id": 2,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel2_shot2.npz",
+        "sha256": "5c7a46e42416890b30dd7f6059fecfafaebf4573a63cec9873440cd0868b62ee",
+        "signature": {
+          "original_case_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "76381739a2093f43ef07cffcee240ac9cd1a94af077e7bd8e6754b07b4c06edc",
+          "loc_x": 38,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot3",
+        "model_id": 2,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel2_shot3.npz",
+        "sha256": "355228179e6cb82ee8fc96c47ac6c8dc8f24fb8e3a61a8bfe9ae719be91b22fc",
+        "signature": {
+          "original_case_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "76381739a2093f43ef07cffcee240ac9cd1a94af077e7bd8e6754b07b4c06edc",
+          "loc_x": 62,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot4",
+        "model_id": 2,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel2_shot4.npz",
+        "sha256": "3f2ea1f7e44fe1768f80f4b157ed12c4aa05e9b365c613397fef98370c439a3a",
+        "signature": {
+          "original_case_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "76381739a2093f43ef07cffcee240ac9cd1a94af077e7bd8e6754b07b4c06edc",
+          "loc_x": 105,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot5",
+        "model_id": 2,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel2_shot5.npz",
+        "sha256": "d20714ed11b8c30bab82cdda3256057db29e8a30e9b899beae6a7ce17ed1d82a",
+        "signature": {
+          "original_case_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "76381739a2093f43ef07cffcee240ac9cd1a94af077e7bd8e6754b07b4c06edc",
+          "loc_x": 126,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot1",
+        "model_id": 3,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel3_shot1.npz",
+        "sha256": "7b06f9f97929a86671b3334849e2a018f02408ac3340616e88acc0a03dae115a",
+        "signature": {
+          "original_case_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "8304870117f01a28415e28834b839593d5f2f74bdadf2a1bfce3d7d009fbb63c",
+          "loc_x": 25,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot2",
+        "model_id": 3,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel3_shot2.npz",
+        "sha256": "c76dfccbfba5eb6cabe93eead1b02e3ad43fcb954c70e98b125488cddb82adb4",
+        "signature": {
+          "original_case_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "8304870117f01a28415e28834b839593d5f2f74bdadf2a1bfce3d7d009fbb63c",
+          "loc_x": 38,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot3",
+        "model_id": 3,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel3_shot3.npz",
+        "sha256": "44e7dc79f346ed11658aba50d47f54395abb872b56d1716ce30108621e81a19d",
+        "signature": {
+          "original_case_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "8304870117f01a28415e28834b839593d5f2f74bdadf2a1bfce3d7d009fbb63c",
+          "loc_x": 62,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot4",
+        "model_id": 3,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel3_shot4.npz",
+        "sha256": "4996c173986c5d500799a73e75b4b99b9b0aa6acf33533335d0569f48f8be657",
+        "signature": {
+          "original_case_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "8304870117f01a28415e28834b839593d5f2f74bdadf2a1bfce3d7d009fbb63c",
+          "loc_x": 105,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot5",
+        "model_id": 3,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel3_shot5.npz",
+        "sha256": "068d43e7a159d488b0d846bf02eada9877ac73a3da49d47e861f49b100571bcf",
+        "signature": {
+          "original_case_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "8304870117f01a28415e28834b839593d5f2f74bdadf2a1bfce3d7d009fbb63c",
+          "loc_x": 126,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot1",
+        "model_id": 4,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel4_shot1.npz",
+        "sha256": "873f04da06225d146bc9547019e7dcf2a2af4e6edb7c8648cb6c648e5d544491",
+        "signature": {
+          "original_case_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "4082eb593f14e0c94faf7a5a05ca7bddc525a0e18ef410df993966adfdd4825b",
+          "loc_x": 25,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot2",
+        "model_id": 4,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel4_shot2.npz",
+        "sha256": "d14c1e7a42f50379fea7625dbbd81f629b8f85d81734ff3c7c9d4f4158ad1f75",
+        "signature": {
+          "original_case_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "4082eb593f14e0c94faf7a5a05ca7bddc525a0e18ef410df993966adfdd4825b",
+          "loc_x": 38,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot3",
+        "model_id": 4,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel4_shot3.npz",
+        "sha256": "da93722d73cca3dbf2f1addca6869c7666ce94a6389987fad7d3181ac4cf1e29",
+        "signature": {
+          "original_case_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "4082eb593f14e0c94faf7a5a05ca7bddc525a0e18ef410df993966adfdd4825b",
+          "loc_x": 62,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot4",
+        "model_id": 4,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel4_shot4.npz",
+        "sha256": "fb5682959a36673c1af67f75745139157c4f9ca3a0d399d548bba72fba17de38",
+        "signature": {
+          "original_case_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "4082eb593f14e0c94faf7a5a05ca7bddc525a0e18ef410df993966adfdd4825b",
+          "loc_x": 105,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot5",
+        "model_id": 4,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p400000/outputs/RedSea_vel4_shot5.npz",
+        "sha256": "e1eff849a29dea9517c02b124b1396f1c1ed0bb85d702ee177f57739c66a7663",
+        "signature": {
+          "original_case_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "4082eb593f14e0c94faf7a5a05ca7bddc525a0e18ef410df993966adfdd4825b",
+          "loc_x": 126,
+          "alpha": 0.4,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1670.0,
+            4800.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      }
+    ],
+    "0.6": [
+      {
+        "case": "RedSea_vel1_shot1",
+        "model_id": 1,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel1_shot1.npz",
+        "sha256": "f316089b0d27cea36cde7e341bb6ad5f56d32c940d2aad0176f571224a823673",
+        "signature": {
+          "original_case_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "65f6339e2b9a547d06730d5854e6af2249683e6651e12e0dab9c0cb02cdf1d37",
+          "loc_x": 25,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot2",
+        "model_id": 1,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel1_shot2.npz",
+        "sha256": "b6bbc704be873693a909225f180da40a292d0847075bb2e87151f25c0a41b32e",
+        "signature": {
+          "original_case_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "65f6339e2b9a547d06730d5854e6af2249683e6651e12e0dab9c0cb02cdf1d37",
+          "loc_x": 38,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot3",
+        "model_id": 1,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel1_shot3.npz",
+        "sha256": "607834550138c5e8792118471e76229565598f6805f265b42ee326d9e8b46772",
+        "signature": {
+          "original_case_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "65f6339e2b9a547d06730d5854e6af2249683e6651e12e0dab9c0cb02cdf1d37",
+          "loc_x": 62,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot4",
+        "model_id": 1,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel1_shot4.npz",
+        "sha256": "c563dfa0759afa7a923a5a8903f4f0fa34abb200a53f14ce3d0cf1b3a352c840",
+        "signature": {
+          "original_case_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "65f6339e2b9a547d06730d5854e6af2249683e6651e12e0dab9c0cb02cdf1d37",
+          "loc_x": 105,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot5",
+        "model_id": 1,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel1_shot5.npz",
+        "sha256": "4af9fbdedf05b2f117f0ae98ea2c7864c6d91363ce9d7207eef8d3f53c2e7651",
+        "signature": {
+          "original_case_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "65f6339e2b9a547d06730d5854e6af2249683e6651e12e0dab9c0cb02cdf1d37",
+          "loc_x": 126,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot1",
+        "model_id": 2,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel2_shot1.npz",
+        "sha256": "24e214de698d0dbe56cad93db9d956697d29fcd0a0c8346e125f263078368199",
+        "signature": {
+          "original_case_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "ad893a5bae10d3355e27bed464cbcb31ca6bb38f124dbb6957e833a7b82a6edf",
+          "loc_x": 25,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot2",
+        "model_id": 2,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel2_shot2.npz",
+        "sha256": "080b6cd53b21ec5e01015789b0b582afda71e66cf0461ba7018a6b239b6bc7ef",
+        "signature": {
+          "original_case_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "ad893a5bae10d3355e27bed464cbcb31ca6bb38f124dbb6957e833a7b82a6edf",
+          "loc_x": 38,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot3",
+        "model_id": 2,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel2_shot3.npz",
+        "sha256": "cdf52db99092adc7f078b03f8c1af9e59f56eb82b8f43bdeefaa330ce4998748",
+        "signature": {
+          "original_case_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "ad893a5bae10d3355e27bed464cbcb31ca6bb38f124dbb6957e833a7b82a6edf",
+          "loc_x": 62,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot4",
+        "model_id": 2,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel2_shot4.npz",
+        "sha256": "b95d9c1427179ae37054cc89496394cb2806d3d8ec80a17349247cc94f6deafd",
+        "signature": {
+          "original_case_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "ad893a5bae10d3355e27bed464cbcb31ca6bb38f124dbb6957e833a7b82a6edf",
+          "loc_x": 105,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot5",
+        "model_id": 2,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel2_shot5.npz",
+        "sha256": "a4922d324d932cf65332ec0029e6df36ab53dc74b1670d9750a22081e3ccb9f5",
+        "signature": {
+          "original_case_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "ad893a5bae10d3355e27bed464cbcb31ca6bb38f124dbb6957e833a7b82a6edf",
+          "loc_x": 126,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot1",
+        "model_id": 3,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel3_shot1.npz",
+        "sha256": "cfd1c47422e9703e5b32105f1ec4b9bff9a5a63abd3ddd8d3b00794d2344f8be",
+        "signature": {
+          "original_case_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "4d4933cc69624c8d6ff0831f6bdd9e380d5aa4255bbdfae3342ce4b004f33b71",
+          "loc_x": 25,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot2",
+        "model_id": 3,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel3_shot2.npz",
+        "sha256": "ef396f78eeef5fa0e2ce0f7e51d512fa6a5847d02a0289390f64da8fbbf33d3c",
+        "signature": {
+          "original_case_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "4d4933cc69624c8d6ff0831f6bdd9e380d5aa4255bbdfae3342ce4b004f33b71",
+          "loc_x": 38,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot3",
+        "model_id": 3,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel3_shot3.npz",
+        "sha256": "2ad2fa4595e60a7f73dd62bb0396c6c07d89b5bf646b0c5c906f956ccb2b8acf",
+        "signature": {
+          "original_case_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "4d4933cc69624c8d6ff0831f6bdd9e380d5aa4255bbdfae3342ce4b004f33b71",
+          "loc_x": 62,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot4",
+        "model_id": 3,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel3_shot4.npz",
+        "sha256": "01ae30c6ebcd47fb077d429396d2ca3acb8419c8943eb54ccccb8f00df7020c2",
+        "signature": {
+          "original_case_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "4d4933cc69624c8d6ff0831f6bdd9e380d5aa4255bbdfae3342ce4b004f33b71",
+          "loc_x": 105,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot5",
+        "model_id": 3,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel3_shot5.npz",
+        "sha256": "368ed762730f146631bd4392a50d6b2c72198a01e074381173f438a05d6f1373",
+        "signature": {
+          "original_case_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "4d4933cc69624c8d6ff0831f6bdd9e380d5aa4255bbdfae3342ce4b004f33b71",
+          "loc_x": 126,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot1",
+        "model_id": 4,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel4_shot1.npz",
+        "sha256": "980ee1c9400d4ca0c1fe4998a054dddd81e9097b3e9ac8d2f90afc8ed5e1c6b8",
+        "signature": {
+          "original_case_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "9e9cba4bdc3e7b022867650c9a67f328b01291f744ba8cac057e0b49d7c7c919",
+          "loc_x": 25,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot2",
+        "model_id": 4,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel4_shot2.npz",
+        "sha256": "b57cfc29b665accecbe14ff5d4d7f034299fd0c285c3e97c88d753b5967992fc",
+        "signature": {
+          "original_case_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "9e9cba4bdc3e7b022867650c9a67f328b01291f744ba8cac057e0b49d7c7c919",
+          "loc_x": 38,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot3",
+        "model_id": 4,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel4_shot3.npz",
+        "sha256": "9af1200a0d9a8ff7a08311e3771a7f206dfa6eccb2291987f591f12202f625bb",
+        "signature": {
+          "original_case_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "9e9cba4bdc3e7b022867650c9a67f328b01291f744ba8cac057e0b49d7c7c919",
+          "loc_x": 62,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot4",
+        "model_id": 4,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel4_shot4.npz",
+        "sha256": "e96e688a268b6f52847b305faa687fb12dee86c7a423cd35ae6dbc676d374139",
+        "signature": {
+          "original_case_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "9e9cba4bdc3e7b022867650c9a67f328b01291f744ba8cac057e0b49d7c7c919",
+          "loc_x": 105,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot5",
+        "model_id": 4,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p600000/outputs/RedSea_vel4_shot5.npz",
+        "sha256": "48317a11d1ad68c49c07aea0096ee9e84b9b14126b95cc7047f9014ea0eb2c7b",
+        "signature": {
+          "original_case_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "9e9cba4bdc3e7b022867650c9a67f328b01291f744ba8cac057e0b49d7c7c919",
+          "loc_x": 126,
+          "alpha": 0.6,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1780.0,
+            4700.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      }
+    ],
+    "0.8": [
+      {
+        "case": "RedSea_vel1_shot1",
+        "model_id": 1,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel1_shot1.npz",
+        "sha256": "d44e2fe2067e8e243a32cc1da2388d4ed371ffe52f1e8c62e162622aea1e523f",
+        "signature": {
+          "original_case_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "0a38dcbb84dd610abd7a4442e40b1de298028848d49a3688d8d19cc01fa0f48f",
+          "loc_x": 25,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot2",
+        "model_id": 1,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel1_shot2.npz",
+        "sha256": "4d65834cd1b55bc44068ae3ca74d86fa6a5224a8cdb21a8333eea141b56af02b",
+        "signature": {
+          "original_case_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "0a38dcbb84dd610abd7a4442e40b1de298028848d49a3688d8d19cc01fa0f48f",
+          "loc_x": 38,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot3",
+        "model_id": 1,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel1_shot3.npz",
+        "sha256": "2bc5942ade37a156ae66a61a0b8248454577243516e305b368027ad4dc655ade",
+        "signature": {
+          "original_case_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "0a38dcbb84dd610abd7a4442e40b1de298028848d49a3688d8d19cc01fa0f48f",
+          "loc_x": 62,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot4",
+        "model_id": 1,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel1_shot4.npz",
+        "sha256": "2419912979aa6469e9ada97a8a42ab6e80b82a22e3e5340c1b9ea0f2236baf35",
+        "signature": {
+          "original_case_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "0a38dcbb84dd610abd7a4442e40b1de298028848d49a3688d8d19cc01fa0f48f",
+          "loc_x": 105,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel1_shot5",
+        "model_id": 1,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel1_shot5.npz",
+        "sha256": "40fb7fdf3fa14fffe474b4eca66dda96dcc1058434eab69b155a3f69f3991baa",
+        "signature": {
+          "original_case_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+          "original_velocity_sha256": "670ce2ca32408c1bf1d3f44e04d5ad835d48fa2f030f3aa427bd9e62d4ba788b",
+          "rescaled_velocity_sha256": "0a38dcbb84dd610abd7a4442e40b1de298028848d49a3688d8d19cc01fa0f48f",
+          "loc_x": 126,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot1",
+        "model_id": 2,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel2_shot1.npz",
+        "sha256": "3728cee46c45fbd4c6f0d4e0266ce297de1f1925e873add8fa347ac28a371b75",
+        "signature": {
+          "original_case_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "979f4ac2081b8b97e469353b20b74cbffb3754fbaef5dbe476493789f069b18b",
+          "loc_x": 25,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot2",
+        "model_id": 2,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel2_shot2.npz",
+        "sha256": "455f6f3d6dc4ac3f0e22f4fa41d834f4235712dfba3fc45d1aa8a936e043fbb8",
+        "signature": {
+          "original_case_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "979f4ac2081b8b97e469353b20b74cbffb3754fbaef5dbe476493789f069b18b",
+          "loc_x": 38,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot3",
+        "model_id": 2,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel2_shot3.npz",
+        "sha256": "739b7b35d1ef63244e29b654f402380c6fe8f04bac06beeb64966204a29e3ac5",
+        "signature": {
+          "original_case_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "979f4ac2081b8b97e469353b20b74cbffb3754fbaef5dbe476493789f069b18b",
+          "loc_x": 62,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot4",
+        "model_id": 2,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel2_shot4.npz",
+        "sha256": "96f51b83c623f85604e2b37dac127287a1924494c1c178fee6fbe729a1a099a5",
+        "signature": {
+          "original_case_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "979f4ac2081b8b97e469353b20b74cbffb3754fbaef5dbe476493789f069b18b",
+          "loc_x": 105,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel2_shot5",
+        "model_id": 2,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel2_shot5.npz",
+        "sha256": "1e726f266e38a0dd2935e0adf3cc158bdb8db57c93b35f046b8d68b8cbf188cb",
+        "signature": {
+          "original_case_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+          "original_velocity_sha256": "4a01cb1e081fec3087ed2b5f427f67acd60d79fa1d91520bc4ef49dd8a42ece6",
+          "rescaled_velocity_sha256": "979f4ac2081b8b97e469353b20b74cbffb3754fbaef5dbe476493789f069b18b",
+          "loc_x": 126,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot1",
+        "model_id": 3,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel3_shot1.npz",
+        "sha256": "2a2bdb32dd62874494cb4e5e4701102faf36ce6dbd31a958bc366f27fc284e60",
+        "signature": {
+          "original_case_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "978fc5fd2ee6d2f6cb27314e6450b9bf8f64f29235a38a52c168d2bd37c8ee6e",
+          "loc_x": 25,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot2",
+        "model_id": 3,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel3_shot2.npz",
+        "sha256": "f34e66e29a03eb4c0581b7c7699cf389a500a6a489d6f3309ac79e3ec6cc0a74",
+        "signature": {
+          "original_case_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "978fc5fd2ee6d2f6cb27314e6450b9bf8f64f29235a38a52c168d2bd37c8ee6e",
+          "loc_x": 38,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot3",
+        "model_id": 3,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel3_shot3.npz",
+        "sha256": "add2bc3987d2a71838299fd4ee98e8ecaf5dc6e189f741f59cca4aeae2eacafa",
+        "signature": {
+          "original_case_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "978fc5fd2ee6d2f6cb27314e6450b9bf8f64f29235a38a52c168d2bd37c8ee6e",
+          "loc_x": 62,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot4",
+        "model_id": 3,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel3_shot4.npz",
+        "sha256": "eb28edc74acb6a36783d47ace3618a6fcc8af1419a59378639fb459f522ed966",
+        "signature": {
+          "original_case_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "978fc5fd2ee6d2f6cb27314e6450b9bf8f64f29235a38a52c168d2bd37c8ee6e",
+          "loc_x": 105,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel3_shot5",
+        "model_id": 3,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel3_shot5.npz",
+        "sha256": "d551fec23a0d96b12d43633f078df356311893c3fd184628e63d8267185f3501",
+        "signature": {
+          "original_case_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+          "original_velocity_sha256": "fd6934ede36636188d28d4ed8b74049c4e82a5e72ec52aac71510846ac15cd60",
+          "rescaled_velocity_sha256": "978fc5fd2ee6d2f6cb27314e6450b9bf8f64f29235a38a52c168d2bd37c8ee6e",
+          "loc_x": 126,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot1",
+        "model_id": 4,
+        "shot": 1,
+        "loc_x": 25,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel4_shot1.npz",
+        "sha256": "6e23593fc7a48dcfbfe94f4cee62fa02d645b5fec097d30c4fbb0c7490ae93ef",
+        "signature": {
+          "original_case_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2e663a2dfbd2809ae3f4f729ae79e113da51e5c0ccf75cf72464762115e9e51d",
+          "loc_x": 25,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot2",
+        "model_id": 4,
+        "shot": 2,
+        "loc_x": 38,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel4_shot2.npz",
+        "sha256": "627ef3b07639a435a511c4f8545f3b14e3cf2577d5ca031137e86c5080414653",
+        "signature": {
+          "original_case_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2e663a2dfbd2809ae3f4f729ae79e113da51e5c0ccf75cf72464762115e9e51d",
+          "loc_x": 38,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot3",
+        "model_id": 4,
+        "shot": 3,
+        "loc_x": 62,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel4_shot3.npz",
+        "sha256": "906e413eaae0e9bb6c28e59460b36e9ac0b5866108498b30d70caa1a7fbf092a",
+        "signature": {
+          "original_case_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2e663a2dfbd2809ae3f4f729ae79e113da51e5c0ccf75cf72464762115e9e51d",
+          "loc_x": 62,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot4",
+        "model_id": 4,
+        "shot": 4,
+        "loc_x": 105,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel4_shot4.npz",
+        "sha256": "0338d75945a4bf6bf2109a268d8bf777538f3186a7bcf8cafffce1825a80a2d2",
+        "signature": {
+          "original_case_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2e663a2dfbd2809ae3f4f729ae79e113da51e5c0ccf75cf72464762115e9e51d",
+          "loc_x": 105,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      },
+      {
+        "case": "RedSea_vel4_shot5",
+        "model_id": 4,
+        "shot": 5,
+        "loc_x": 126,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_velocity_sweep/alpha_0p800000/outputs/RedSea_vel4_shot5.npz",
+        "sha256": "26072aa9843baa78b12f5dfd493ab092eb0700f4ea11a4e7eaa55c3bbcfdcde9",
+        "signature": {
+          "original_case_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+          "original_velocity_sha256": "55741c320293e11ca918aacc9edebc79926b7bbc08f4846b2d279bf7e10b83d5",
+          "rescaled_velocity_sha256": "2e663a2dfbd2809ae3f4f729ae79e113da51e5c0ccf75cf72464762115e9e51d",
+          "loc_x": 126,
+          "alpha": 0.8,
+          "source_bounds_mps": [
+            1450.0,
+            5000.0
+          ],
+          "target_bounds_mps": [
+            1890.0,
+            4600.0
+          ],
+          "transform": "vp + alpha * ((2000 + (vp-1450)*2500/3550) - vp)",
+          "fd": {
+            "fd_dx": 10.0,
+            "fd_dz": 10.0,
+            "fd_dt": 0.001,
+            "fd_nt": 1001,
+            "fd_freq": 15.0,
+            "fd_pml": 50,
+            "fd_downsample": 10
+          },
+          "fd_torch_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+          "benchmark_sha256": "9d3385a45d13612b980b0c3a6e1fa4f88b4aa3ad5fd45e1afeeed1d76f8d7028"
+        }
+      }
+    ]
+  }
+}

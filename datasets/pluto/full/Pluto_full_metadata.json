@@ -1,0 +1,30 @@
+{
+  "dataset": "Pluto 1.5",
+  "source_filename": "int_depth_vp.sgy",
+  "source_sha256": "a435334df891ca3c1835f71ac76362028af3b1fb7ba651bcf1a18df408446e9b",
+  "shape_zx": [
+    1201,
+    6960
+  ],
+  "original_velocity_unit": "ft/s",
+  "output_velocity_unit": "m/s",
+  "multiplier": 0.3048,
+  "vp_min_mps": 1494.4915771484375,
+  "vp_max_mps": 4511.0400390625,
+  "dtype": "float32",
+  "conversion_max_rounding_error_mps": 0.00024374999975407263,
+  "original_dx_dz_ft": [
+    25,
+    25
+  ],
+  "original_dx_dz_m": [
+    7.62,
+    7.62
+  ],
+  "origin": "Grid indices used; absolute survey origin is not inferred from zero coordinate headers.",
+  "segy_coordinate_note": "Velocity values are m/s; distance headers and the depth sampling description remain in feet.",
+  "no_clipping": true,
+  "no_range_matching": true,
+  "no_velocity_normalization": true,
+  "source_attribution": "SMAART JV, Pluto 1.5; original source usage terms continue to apply."
+}

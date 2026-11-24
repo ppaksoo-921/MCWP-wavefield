@@ -1,0 +1,35 @@
+{
+  "original_shape_zx": [
+    751,
+    2301
+  ],
+  "crop_width": 767,
+  "regions": {
+    "left": [
+      0,
+      767
+    ],
+    "middle": [
+      767,
+      1534
+    ],
+    "right": [
+      1534,
+      2301
+    ]
+  },
+  "raw_global_velocity_range": [
+    1500.0,
+    5500.0
+  ],
+  "main_ood_target_range": [
+    1924.1829833984375,
+    4800.0
+  ],
+  "official_source_x": [
+    32,
+    64
+  ],
+  "main_ood_definition": "global linear velocity-range mapping",
+  "hard_ood_definition": "original canonical Marmousi velocity values"
+}

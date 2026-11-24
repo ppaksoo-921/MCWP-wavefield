@@ -1,0 +1,133 @@
+﻿case,group,check,mean_abs_difference,max_abs_difference,relative_l2_difference,max_difference_over_reference_peak,relative_l2_tolerance,peak_relative_tolerance,passed
+Overthrust_shot1,ID,FD10 versus saved FD reference,1.3319770963524626e-07,4.649162292480469e-06,1.5254180056851e-06,6.269276417476968e-07,0.0001,0.0001,True
+Overthrust_shot1,ID,Cached versus standard MCWP,8.76798646594068e-07,1.8283957615494728e-05,8.962846182236448e-06,2.4678764713505353e-06,0.0001,0.0001,True
+Overthrust_shot2,ID,FD10 versus saved FD reference,1.3188544726732386e-07,3.0994415283203125e-06,1.4690399909771108e-06,4.519152446168551e-07,0.0001,0.0001,True
+Overthrust_shot2,ID,Cached versus standard MCWP,9.183745381946551e-07,2.2214604541659355e-05,9.424928363810698e-06,3.242103003002679e-06,0.0001,0.0001,True
+SEGEAGE_shot1,ID,FD10 versus saved FD reference,1.61806334965553e-07,4.500150680541992e-06,1.5559548085059882e-06,3.8512391298137936e-07,0.0001,0.0001,True
+SEGEAGE_shot1,ID,Cached versus standard MCWP,7.000447899230266e-07,1.7906539142131805e-05,6.254028861814115e-06,1.5339533883277873e-06,0.0001,0.0001,True
+SEGEAGE_shot2,ID,FD10 versus saved FD reference,1.6549353126459634e-07,4.5299530029296875e-06,1.5305128630993842e-06,3.916148903688542e-07,0.0001,0.0001,True
+SEGEAGE_shot2,ID,Cached versus standard MCWP,7.035073026884219e-07,1.656264066696167e-05,6.1103915665271544e-06,1.4445782279699e-06,0.0001,0.0001,True
+MarmousiOfficial_shot1,Marmousi_GenWP,FD10 versus saved FD reference,1.688369841557081e-07,4.678964614868164e-06,1.6744431494259008e-06,5.63870931854395e-07,0.0001,0.0001,True
+MarmousiOfficial_shot1,Marmousi_GenWP,Cached versus standard MCWP,9.220112350050158e-07,1.5541911125183105e-05,7.741375846988058e-06,1.8669623600913086e-06,0.0001,0.0001,True
+MarmousiOfficial_shot2,Marmousi_GenWP,FD10 versus saved FD reference,1.6205593154434638e-07,4.589557647705078e-06,1.5917019077032785e-06,5.533386239212915e-07,0.0001,0.0001,True
+MarmousiOfficial_shot2,Marmousi_GenWP,Cached versus standard MCWP,9.345192680498826e-07,1.9630417227745056e-05,8.023601875500813e-06,2.3681740787595656e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot1,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot1,Marmousi_source,Cached versus standard MCWP,6.720038003038553e-07,1.5944242477416992e-05,5.6322467442204e-06,1.4057302082645795e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot2,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot2,Marmousi_source,Cached versus standard MCWP,6.893476656699704e-07,1.8537044525146484e-05,5.640523466820896e-06,1.6365437374996474e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot3,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot3,Marmousi_source,Cached versus standard MCWP,6.978171231608599e-07,2.044718712568283e-05,5.382817542928445e-06,1.8089174881439815e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot4,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot4,Marmousi_source,Cached versus standard MCWP,6.076122628329017e-07,1.4469027519226074e-05,5.104855495232805e-06,1.283384274657325e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot5,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Left_shot5,Marmousi_source,Cached versus standard MCWP,5.160103676971061e-07,1.3247132301330566e-05,4.719979550618501e-06,1.1618787260627367e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot1,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot1,Marmousi_source,Cached versus standard MCWP,6.953501828732556e-07,1.2561678886413574e-05,5.61230584486014e-06,1.1144915739677613e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot2,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot2,Marmousi_source,Cached versus standard MCWP,7.085946731422155e-07,1.636892557144165e-05,5.58774850449233e-06,1.4487872781341537e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot3,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot3,Marmousi_source,Cached versus standard MCWP,7.395773172547138e-07,1.3175420463085175e-05,5.565738599422884e-06,1.1602569137487723e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot4,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot4,Marmousi_source,Cached versus standard MCWP,6.27303648634836e-07,1.4707446098327637e-05,5.383319720655744e-06,1.3078197860270085e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot5,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Middle_shot5,Marmousi_source,Cached versus standard MCWP,5.182384378699112e-07,1.9297003746032715e-05,5.7710009308577565e-06,1.769346280900246e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot1,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot1,Marmousi_source,Cached versus standard MCWP,6.87444113083302e-07,1.245550811290741e-05,5.572239787924207e-06,1.0985642446442188e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot2,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot2,Marmousi_source,Cached versus standard MCWP,7.47815804160723e-07,1.7724931240081787e-05,5.84251487442626e-06,1.5780153601030257e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot3,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot3,Marmousi_source,Cached versus standard MCWP,7.701634201140451e-07,1.5519559383392334e-05,5.537533646948699e-06,1.3698502574134743e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot4,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot4,Marmousi_source,Cached versus standard MCWP,6.991777106790665e-07,1.4543533325195312e-05,5.661703772528382e-06,1.2805307930289415e-06,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot5,Marmousi_source,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+MarmousiOriginalV1500_5000_Right_shot5,Marmousi_source,Cached versus standard MCWP,5.23880181368952e-07,1.2788921594619751e-05,6.175653548984928e-06,1.1789332835274258e-06,0.0001,0.0001,True
+RedSea_vel1_shot1,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel1_shot1,RedSea,Cached versus standard MCWP,7.279871792675863e-07,2.1809712052345276e-05,5.261249080767115e-06,1.8852436692754408e-06,0.0001,0.0001,True
+RedSea_vel1_shot2,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel1_shot2,RedSea,Cached versus standard MCWP,8.158217658760237e-07,1.2682750821113586e-05,5.565575461522155e-06,1.0968817625523406e-06,0.0001,0.0001,True
+RedSea_vel1_shot3,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel1_shot3,RedSea,Cached versus standard MCWP,8.433551460740318e-07,1.2324191629886627e-05,5.53527091454757e-06,1.065892033332624e-06,0.0001,0.0001,True
+RedSea_vel1_shot4,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel1_shot4,RedSea,Cached versus standard MCWP,7.114839740651746e-07,1.5888363122940063e-05,5.225505554456826e-06,1.3730786351297802e-06,0.0001,0.0001,True
+RedSea_vel1_shot5,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel1_shot5,RedSea,Cached versus standard MCWP,5.992100893692509e-07,1.3100914657115936e-05,5.080155766516338e-06,1.1365229083668634e-06,0.0001,0.0001,True
+RedSea_vel2_shot1,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel2_shot1,RedSea,Cached versus standard MCWP,6.877309841613055e-07,1.4096498489379883e-05,5.251583250858774e-06,1.219646429811777e-06,0.0001,0.0001,True
+RedSea_vel2_shot2,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel2_shot2,RedSea,Cached versus standard MCWP,7.961174150139527e-07,1.4401040971279144e-05,5.745717868362387e-06,1.2467451461595094e-06,0.0001,0.0001,True
+RedSea_vel2_shot3,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel2_shot3,RedSea,Cached versus standard MCWP,8.383167409320435e-07,1.5836209058761597e-05,5.717938906877099e-06,1.3709647158071609e-06,0.0001,0.0001,True
+RedSea_vel2_shot4,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel2_shot4,RedSea,Cached versus standard MCWP,7.541488061946211e-07,2.5793910026550293e-05,5.887119835158845e-06,2.231211298344613e-06,0.0001,0.0001,True
+RedSea_vel2_shot5,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel2_shot5,RedSea,Cached versus standard MCWP,6.002851596420556e-07,2.022087574005127e-05,5.03026829260872e-06,1.7570850641937627e-06,0.0001,0.0001,True
+RedSea_vel3_shot1,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel3_shot1,RedSea,Cached versus standard MCWP,7.038303531459178e-07,1.6948208212852478e-05,5.017185679296369e-06,1.465423420870158e-06,0.0001,0.0001,True
+RedSea_vel3_shot2,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel3_shot2,RedSea,Cached versus standard MCWP,7.665239957432845e-07,1.3872981071472168e-05,5.315188316192546e-06,1.2001351205190384e-06,0.0001,0.0001,True
+RedSea_vel3_shot3,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel3_shot3,RedSea,Cached versus standard MCWP,7.786347995875076e-07,1.032371073961258e-05,5.138387449417056e-06,8.929899951866027e-07,0.0001,0.0001,True
+RedSea_vel3_shot4,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel3_shot4,RedSea,Cached versus standard MCWP,6.662722674377619e-07,1.2576580047607422e-05,4.732486428170771e-06,1.0872232084292838e-06,0.0001,0.0001,True
+RedSea_vel3_shot5,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel3_shot5,RedSea,Cached versus standard MCWP,5.940835775675168e-07,1.1848285794258118e-05,4.834249636183348e-06,1.0267020710513446e-06,0.0001,0.0001,True
+RedSea_vel4_shot1,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel4_shot1,RedSea,Cached versus standard MCWP,7.651298411204266e-07,2.6702880859375e-05,5.467366697277504e-06,2.307531858155687e-06,0.0001,0.0001,True
+RedSea_vel4_shot2,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel4_shot2,RedSea,Cached versus standard MCWP,8.035713331366878e-07,1.5117228031158447e-05,5.438581594780675e-06,1.3069699236087482e-06,0.0001,0.0001,True
+RedSea_vel4_shot3,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel4_shot3,RedSea,Cached versus standard MCWP,8.823859132078837e-07,1.668184995651245e-05,5.853767721277623e-06,1.442014800855373e-06,0.0001,0.0001,True
+RedSea_vel4_shot4,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel4_shot4,RedSea,Cached versus standard MCWP,7.028060293023941e-07,2.3126602172851562e-05,5.230102098475288e-06,1.997803816324306e-06,0.0001,0.0001,True
+RedSea_vel4_shot5,RedSea,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+RedSea_vel4_shot5,RedSea,Cached versus standard MCWP,5.176180956212306e-07,1.1671334505081177e-05,4.552630544324285e-06,1.0136122436708253e-06,0.0001,0.0001,True
+Kimberlina_vel1_shot1,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel1_shot1,Kimberlina,Cached versus standard MCWP,8.380634664462149e-07,1.8885359168052673e-05,9.853791582494787e-06,3.3594510490388377e-06,0.0001,0.0001,True
+Kimberlina_vel1_shot2,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel1_shot2,Kimberlina,Cached versus standard MCWP,8.8956027504139e-07,1.7466023564338684e-05,1.0129574877844781e-05,3.1030317135413806e-06,0.0001,0.0001,True
+Kimberlina_vel1_shot3,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel1_shot3,Kimberlina,Cached versus standard MCWP,9.155446456787786e-07,1.5313737094402313e-05,1.0110441933313534e-05,2.7194107160850934e-06,0.0001,0.0001,True
+Kimberlina_vel1_shot4,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel1_shot4,Kimberlina,Cached versus standard MCWP,7.988377996070994e-07,1.841038465499878e-05,9.404435199363185e-06,3.2779033813636163e-06,0.0001,0.0001,True
+Kimberlina_vel1_shot5,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel1_shot5,Kimberlina,Cached versus standard MCWP,6.87676650557023e-07,1.8738210201263428e-05,8.977792924030198e-06,3.342420250995746e-06,0.0001,0.0001,True
+Kimberlina_vel2_shot1,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel2_shot1,Kimberlina,Cached versus standard MCWP,8.497978225818769e-07,1.721363514661789e-05,9.860938453139265e-06,3.061281357273208e-06,0.0001,0.0001,True
+Kimberlina_vel2_shot2,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel2_shot2,Kimberlina,Cached versus standard MCWP,8.489723396110094e-07,1.5402212738990784e-05,9.327334725426434e-06,2.7360095249792476e-06,0.0001,0.0001,True
+Kimberlina_vel2_shot3,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel2_shot3,Kimberlina,Cached versus standard MCWP,8.861601695286936e-07,1.8234364688396454e-05,9.621007794087671e-06,3.2376363414154647e-06,0.0001,0.0001,True
+Kimberlina_vel2_shot4,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel2_shot4,Kimberlina,Cached versus standard MCWP,7.948488818243504e-07,1.4721415936946869e-05,8.844601619393906e-06,2.620461593273539e-06,0.0001,0.0001,True
+Kimberlina_vel2_shot5,Kimberlina,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Kimberlina_vel2_shot5,Kimberlina,Cached versus standard MCWP,7.440989365647965e-07,2.005789428949356e-05,9.577634506974792e-06,3.5771520146520146e-06,0.0001,0.0001,True
+Pluto_vel1_shot1,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel1_shot1,Pluto,Cached versus standard MCWP,6.574716235263622e-07,2.906098961830139e-05,5.521248217344149e-06,2.5392942785528836e-06,0.0001,0.0001,True
+Pluto_vel1_shot2,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel1_shot2,Pluto,Cached versus standard MCWP,7.212200620188014e-07,2.3970380425453186e-05,5.40018631790185e-06,2.097386884830315e-06,0.0001,0.0001,True
+Pluto_vel1_shot3,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel1_shot3,Pluto,Cached versus standard MCWP,7.691504548290596e-07,1.4056917279958725e-05,5.322058356594918e-06,1.230155767923361e-06,0.0001,0.0001,True
+Pluto_vel1_shot4,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel1_shot4,Pluto,Cached versus standard MCWP,6.718327734489548e-07,1.7870217561721802e-05,4.893360981001905e-06,1.5626232638405331e-06,0.0001,0.0001,True
+Pluto_vel1_shot5,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel1_shot5,Pluto,Cached versus standard MCWP,5.808465586198963e-07,1.1460855603218079e-05,4.650981862250414e-06,9.992950411173871e-07,0.0001,0.0001,True
+Pluto_vel2_shot1,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel2_shot1,Pluto,Cached versus standard MCWP,7.322358241879101e-07,2.1405518054962158e-05,6.170781141166223e-06,1.8653216232601411e-06,0.0001,0.0001,True
+Pluto_vel2_shot2,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel2_shot2,Pluto,Cached versus standard MCWP,8.007009862254221e-07,1.5735626220703125e-05,6.108334602169275e-06,1.3723230551604004e-06,0.0001,0.0001,True
+Pluto_vel2_shot3,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel2_shot3,Pluto,Cached versus standard MCWP,7.928305495497057e-07,1.542852260172367e-05,6.0296813088881755e-06,1.3455123109071558e-06,0.0001,0.0001,True
+Pluto_vel2_shot4,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel2_shot4,Pluto,Cached versus standard MCWP,6.511184368207523e-07,1.3510230928659439e-05,5.361615848066699e-06,1.178170139335328e-06,0.0001,0.0001,True
+Pluto_vel2_shot5,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel2_shot5,Pluto,Cached versus standard MCWP,5.003619408583404e-07,1.4126300811767578e-05,5.068571139862581e-06,1.233828105692152e-06,0.0001,0.0001,True
+Pluto_vel3_shot1,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel3_shot1,Pluto,Cached versus standard MCWP,6.676104132807836e-07,2.2530555725097656e-05,5.571234644643003e-06,1.965615007863708e-06,0.0001,0.0001,True
+Pluto_vel3_shot2,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel3_shot2,Pluto,Cached versus standard MCWP,7.014364597068834e-07,1.3457611203193665e-05,5.619696482682947e-06,1.1749425677014624e-06,0.0001,0.0001,True
+Pluto_vel3_shot3,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel3_shot3,Pluto,Cached versus standard MCWP,7.919228315955707e-07,2.3788772523403168e-05,6.077845204408033e-06,2.07716759707988e-06,0.0001,0.0001,True
+Pluto_vel3_shot4,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel3_shot4,Pluto,Cached versus standard MCWP,5.910587135815603e-07,1.6242265701293945e-05,5.2490327910776315e-06,1.4173778071570577e-06,0.0001,0.0001,True
+Pluto_vel3_shot5,Pluto,FD10 versus saved FD reference,0.0,0.0,0.0,0.0,0.0001,0.0001,True
+Pluto_vel3_shot5,Pluto,Cached versus standard MCWP,5.250271302159604e-07,9.423005394637585e-06,4.693692440054823e-06,8.208621420616508e-07,0.0001,0.0001,True

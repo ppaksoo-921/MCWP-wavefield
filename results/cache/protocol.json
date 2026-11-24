@@ -1,0 +1,1277 @@
+{
+  "status": "complete",
+  "smoke": false,
+  "cases": 66,
+  "effective_config": {
+    "study_root": "/home/ppaksoo/Wage_surrogate",
+    "checkpoint": "/home/ppaksoo/Wage_surrogate/mcwp_nccshift_v3/runs/long100_mseonly_ft5k/eval_checkpoints/ema_004000.pt",
+    "fd_source": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/data_gen/fd_torch.py",
+    "marmousi_run_dir": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000",
+    "device": "cuda:9",
+    "warmup": 2,
+    "repeats": 7,
+    "case_overrides": {}
+  },
+  "inventory": {
+    "checkpoint": "/home/ppaksoo/Wage_surrogate/mcwp_nccshift_v3/runs/long100_mseonly_ft5k/eval_checkpoints/ema_004000.pt",
+    "checkpoint_sha256": "fd54d4c20534d0b5960058fa9f9441308eaaa0c46f2a31e6d8a4e1901141d15e",
+    "fd_source": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/data_gen/fd_torch.py",
+    "fd_source_sha256": "39572b2eacbe83024deb48482fc68f34c704f3b0e8a7ad2376e528d14f08a6dd",
+    "group_counts": {
+      "ID": 4,
+      "Marmousi_GenWP": 2,
+      "Marmousi_source": 15,
+      "RedSea": 20,
+      "Kimberlina": 10,
+      "Pluto": 15
+    },
+    "cases": [
+      {
+        "group": "ID",
+        "case": "Overthrust_shot1",
+        "repo_relative": "dataset/test/Overthrust/shot1.mat",
+        "expected_sha256": "2a924f3e9013f1a3d77f3a8c4fac6083647215c083bc1c5804d54a8e5509f894",
+        "expected_mcwp_mae": 0.0044254614819985,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Overthrust/shot1.mat",
+        "loc_x": 32
+      },
+      {
+        "group": "ID",
+        "case": "Overthrust_shot2",
+        "repo_relative": "dataset/test/Overthrust/shot2.mat",
+        "expected_sha256": "828f7eca9a2d44363d98d94d060cf8b8a7d0d39021b7d188983df354950ce7d9",
+        "expected_mcwp_mae": 0.0045536808674706,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Overthrust/shot2.mat",
+        "loc_x": 64
+      },
+      {
+        "group": "ID",
+        "case": "SEGEAGE_shot1",
+        "repo_relative": "dataset/test/SEGEAGE/shot1.mat",
+        "expected_sha256": "ec0fc75ffce6654b7f51a3782a13d884a70b54d2574c83eb6584f480d8cb7f51",
+        "expected_mcwp_mae": 0.0041134873922575,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/SEGEAGE/shot1.mat",
+        "loc_x": 32
+      },
+      {
+        "group": "ID",
+        "case": "SEGEAGE_shot2",
+        "repo_relative": "dataset/test/SEGEAGE/shot2.mat",
+        "expected_sha256": "2ca88045b19a61082a21d510901fb6e84f487d2b2a96bbb59ade3618314270c2",
+        "expected_mcwp_mae": 0.0043017795060227,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/SEGEAGE/shot2.mat",
+        "loc_x": 64
+      },
+      {
+        "group": "Marmousi_GenWP",
+        "case": "MarmousiOfficial_shot1",
+        "repo_relative": "dataset/test/Marmousi/shot1.mat",
+        "expected_sha256": "2cc5009cdfb1a5e18646ca12e1cbb961bd2fa51cba8404b99b8fc9ff26e0911c",
+        "expected_mcwp_mae": 0.0075448220474411,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Marmousi/shot1.mat",
+        "loc_x": 32
+      },
+      {
+        "group": "Marmousi_GenWP",
+        "case": "MarmousiOfficial_shot2",
+        "repo_relative": "dataset/test/Marmousi/shot2.mat",
+        "expected_sha256": "de75263543b20b82d7c0f288d4daaf981bafbc6139c4697187135ef9c6de70c7",
+        "expected_mcwp_mae": 0.006914114782282,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Marmousi/shot2.mat",
+        "loc_x": 64
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Left_shot1",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot1.npz",
+        "expected_sha256": "0c50d9ec6436272ae5fd007ff30c94363b595fea8e2b916e35885021aa702f90",
+        "expected_mcwp_mae": 0.010678285939213154,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Left_shot2",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot2.npz",
+        "expected_sha256": "a3e4d9b1e5e560c64f629fbf14e319257dbeb6cc7ddf5a863b299b1c609e726d",
+        "expected_mcwp_mae": 0.010790186151691741,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Left_shot3",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot3.npz",
+        "expected_sha256": "81a6f1750cef2b7162bce67be32e41acbffb3cd73347cc504390d8f78b205fa6",
+        "expected_mcwp_mae": 0.010642250288577631,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Left_shot4",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot4.npz",
+        "expected_sha256": "87720fff2da228ccc7b08152e165238ba5d6c2f25d35e9c139fbb20b11d0d99f",
+        "expected_mcwp_mae": 0.010198323254941905,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Left_shot5",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot5.npz",
+        "expected_sha256": "8bacb9686715c40c3f521f011f6aa457f63cd12ee12b66848263b69100642395",
+        "expected_mcwp_mae": 0.0100086212191129,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Middle_shot1",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot1.npz",
+        "expected_sha256": "dc6d0a170095320956517e71263becb64c326897ac53955a0bf48a5ae0007459",
+        "expected_mcwp_mae": 0.008453686426658138,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Middle_shot2",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot2.npz",
+        "expected_sha256": "e299bc8b19c09a84664c71760c1810fea76d449942d0351d174f53cd50a6d522",
+        "expected_mcwp_mae": 0.008458227544157438,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Middle_shot3",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot3.npz",
+        "expected_sha256": "67ad0eb256ee6c63739c8490d1e27ff31f261f1f1d50e922d17095d32483d058",
+        "expected_mcwp_mae": 0.010417007691522175,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Middle_shot4",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot4.npz",
+        "expected_sha256": "e4a66244ed65bac5f0a2353408caea833d469cf68fd16e4eb87ea28df91eb90f",
+        "expected_mcwp_mae": 0.012451845474482248,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Middle_shot5",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot5.npz",
+        "expected_sha256": "365e0e58003e04bed333bc2506d6a311439cfdb99d44945eb979dbb9ad94c624",
+        "expected_mcwp_mae": 0.009622354988937924,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Right_shot1",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot1.npz",
+        "expected_sha256": "81db5bee31fda253371b9a53f73b88f891cdd81a6a93f2a7b6ed6cfe31a69b88",
+        "expected_mcwp_mae": 0.010112225439957278,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Right_shot2",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot2.npz",
+        "expected_sha256": "d14920056a77c2be0f6e53a026963cfd71c84db7d51bdb23f38759aeeac695b0",
+        "expected_mcwp_mae": 0.009848355868340902,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Right_shot3",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot3.npz",
+        "expected_sha256": "f08b86bb4eee035ddbef1bc61c8b86aaf5a8ef50fc7be2416afac4a7dcbcfc72",
+        "expected_mcwp_mae": 0.009717913036497727,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Right_shot4",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot4.npz",
+        "expected_sha256": "6424ade6d2c898ee1582a9e998eeb9dd761ec2105c3010644a7f977ba6ea5000",
+        "expected_mcwp_mae": 0.009948193815457971,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Marmousi_source",
+        "case": "MarmousiOriginalV1500_5000_Right_shot5",
+        "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot5.npz",
+        "expected_sha256": "887ed814ec0a94a4ca7fa37e708c57e0b893af0409cdad3efb4bcacbc45aab13",
+        "expected_mcwp_mae": 0.009957230189230077,
+        "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel1_shot1",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot1.npz",
+        "expected_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+        "expected_mcwp_mae": 0.0425177176484398,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel1_shot2",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot2.npz",
+        "expected_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+        "expected_mcwp_mae": 0.0426079495259525,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel1_shot3",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot3.npz",
+        "expected_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+        "expected_mcwp_mae": 0.0429389387161156,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel1_shot4",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot4.npz",
+        "expected_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+        "expected_mcwp_mae": 0.0435256018112197,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel1_shot5",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot5.npz",
+        "expected_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+        "expected_mcwp_mae": 0.0443615713596506,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel2_shot1",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot1.npz",
+        "expected_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+        "expected_mcwp_mae": 0.0406442055916839,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel2_shot2",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot2.npz",
+        "expected_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+        "expected_mcwp_mae": 0.0413556588275971,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel2_shot3",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot3.npz",
+        "expected_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+        "expected_mcwp_mae": 0.0422677676037153,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel2_shot4",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot4.npz",
+        "expected_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+        "expected_mcwp_mae": 0.0441734788857003,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel2_shot5",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot5.npz",
+        "expected_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+        "expected_mcwp_mae": 0.0456839255786992,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel3_shot1",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot1.npz",
+        "expected_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+        "expected_mcwp_mae": 0.0459505940651734,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel3_shot2",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot2.npz",
+        "expected_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+        "expected_mcwp_mae": 0.0441505797649205,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel3_shot3",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot3.npz",
+        "expected_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+        "expected_mcwp_mae": 0.0431940469015298,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel3_shot4",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot4.npz",
+        "expected_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+        "expected_mcwp_mae": 0.0448137868358408,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel3_shot5",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot5.npz",
+        "expected_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+        "expected_mcwp_mae": 0.0461663414027821,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel4_shot1",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot1.npz",
+        "expected_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+        "expected_mcwp_mae": 0.0470892799526026,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel4_shot2",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot2.npz",
+        "expected_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+        "expected_mcwp_mae": 0.0452535723985064,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel4_shot3",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot3.npz",
+        "expected_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+        "expected_mcwp_mae": 0.0448774243947017,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel4_shot4",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot4.npz",
+        "expected_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+        "expected_mcwp_mae": 0.0441436900359161,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "RedSea",
+        "case": "RedSea_vel4_shot5",
+        "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot5.npz",
+        "expected_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+        "expected_mcwp_mae": 0.0408054946239591,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel1_shot1",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot1.npz",
+        "expected_sha256": "07bcfffa736a8dfe9d574d41224428b43078822e03a9aeb42ce4b989e1e774a2",
+        "expected_mcwp_mae": 0.0066229533016369,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel1_shot2",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot2.npz",
+        "expected_sha256": "c142637093909447333f3bafdd8cb2aa6a0461e7be774aed2ba29b0b75ddd940",
+        "expected_mcwp_mae": 0.006299855747655,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel1_shot3",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot3.npz",
+        "expected_sha256": "3201a72c96fd9b5b8a9b41ea777e1a7495d89525afaaf06b703dccf2921e5b2f",
+        "expected_mcwp_mae": 0.0059130945289861,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel1_shot4",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot4.npz",
+        "expected_sha256": "94a4e4e02d7d9a38077976795521299169d91642fd149d0b27056eb81fe109eb",
+        "expected_mcwp_mae": 0.0059109500150484,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel1_shot5",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot5.npz",
+        "expected_sha256": "6df6eab974c6280fd6c9f5c006ac275f5695648c1f7e5a4fc13f6f0c05e75fd2",
+        "expected_mcwp_mae": 0.0069714131260467,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel2_shot1",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot1.npz",
+        "expected_sha256": "59b432339b1e2d601dacda73928fcabcf311205e0334cd7abb224a98099740b1",
+        "expected_mcwp_mae": 0.0061807269490886,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel2_shot2",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot2.npz",
+        "expected_sha256": "72bdb32919efbe85a333a1b737094e99e11b5e6a9854f0af711fa2129e930a83",
+        "expected_mcwp_mae": 0.0057948895208046,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel2_shot3",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot3.npz",
+        "expected_sha256": "6ff3513cee4258499d9d76df3e1d4b069a66e1b86700cbd28e45e3f4b8a4f247",
+        "expected_mcwp_mae": 0.0055015018515772,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel2_shot4",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot4.npz",
+        "expected_sha256": "652fbd84f4590b246e3cf263bd4b4ddee692d3c883027335c0a8e7da818efc9e",
+        "expected_mcwp_mae": 0.0055957543135362,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Kimberlina",
+        "case": "Kimberlina_vel2_shot5",
+        "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot5.npz",
+        "expected_sha256": "e2947e57382dcb4920ed580298381128096bfd520d9552056ba69ed9d5138392",
+        "expected_mcwp_mae": 0.0065665857170474,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel1_shot1",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot1.npz",
+        "expected_sha256": "440625959b12a2c7d89ac4a4530dbf9f16865f1fd6802bf8dae43db5ff711369",
+        "expected_mcwp_mae": 0.0115008549403909,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel1_shot2",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot2.npz",
+        "expected_sha256": "f1bbb7b0e16e03ba294d24a7b4f830975d19dcf6f8fa6a2cfb0f408acd165b0b",
+        "expected_mcwp_mae": 0.0120354710226461,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel1_shot3",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot3.npz",
+        "expected_sha256": "7e2c57f4b144be22721806691f5b6e6691381bd788c55985b740c058d6fd29c8",
+        "expected_mcwp_mae": 0.0127504924802705,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel1_shot4",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot4.npz",
+        "expected_sha256": "db451d4e4c2f6ce2e32dfb3400348d46994161859d8f80f9511243c309298bd6",
+        "expected_mcwp_mae": 0.0121405194001197,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel1_shot5",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot5.npz",
+        "expected_sha256": "7ea42ab99a8c4ad601c660d141fe5b765f78b1260584d3880a896e8a53a24f84",
+        "expected_mcwp_mae": 0.0114958451165022,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel2_shot1",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot1.npz",
+        "expected_sha256": "6439745634f5290e863829d61c73617f9394fa9b6fcf2fd0e0af770b8a0a094c",
+        "expected_mcwp_mae": 0.0068349792580321,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel2_shot2",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot2.npz",
+        "expected_sha256": "c6b3f93731328ef46fd194dff8510e021412ec114c40bb78758c6fb3d6686060",
+        "expected_mcwp_mae": 0.0069671245321629,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel2_shot3",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot3.npz",
+        "expected_sha256": "02a3a2cddcae2a3d331911a08e7d764026113a739ebd561ffedae6c989ab12a0",
+        "expected_mcwp_mae": 0.0072718261219397,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel2_shot4",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot4.npz",
+        "expected_sha256": "128d2a49c197f2cb83aa56398f1e6d0cbc30836c3593803e49349ec8054409ee",
+        "expected_mcwp_mae": 0.0067043384966281,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel2_shot5",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot5.npz",
+        "expected_sha256": "a43d9787904c9412ec3c58c3dbafbb437aba3531058f225a9a17fc175bdcbea9",
+        "expected_mcwp_mae": 0.007271664468059,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot5.npz",
+        "loc_x": 126
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel3_shot1",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot1.npz",
+        "expected_sha256": "951a211e13c22de91af007400ad5cf018f7efc4d8cce6ddcdcb0eab902eee5d7",
+        "expected_mcwp_mae": 0.0053803820749124,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot1.npz",
+        "loc_x": 25
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel3_shot2",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot2.npz",
+        "expected_sha256": "13ac19a081b971429f6225ff4a29c75653929842c32f09656246e6272d1a9104",
+        "expected_mcwp_mae": 0.0054745344750673,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot2.npz",
+        "loc_x": 38
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel3_shot3",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot3.npz",
+        "expected_sha256": "69b1b102007481b4ea55b532f1cd1cc2c31e468bc57634570c63a000c37e9000",
+        "expected_mcwp_mae": 0.0058598164329148,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot3.npz",
+        "loc_x": 62
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel3_shot4",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot4.npz",
+        "expected_sha256": "51cbe3acb92222d96bae0d8c25c827c3a58aa6f14f85519d6916e37440e61ece",
+        "expected_mcwp_mae": 0.0055413785400965,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot4.npz",
+        "loc_x": 105
+      },
+      {
+        "group": "Pluto",
+        "case": "Pluto_vel3_shot5",
+        "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot5.npz",
+        "expected_sha256": "eb043dffe80c33a04be28d1a297e431926e5a4a5582978ef480dc52b0dae5d93",
+        "expected_mcwp_mae": 0.0063015445991909,
+        "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot5.npz",
+        "loc_x": 126
+      }
+    ],
+    "protocol": {
+      "dx_m": 10.0,
+      "dz_m": 10.0,
+      "dt_s": 0.001,
+      "nt": 1001,
+      "frequency_hz": 15.0,
+      "pml_cells": 50,
+      "snapshot_stride": 10
+    },
+    "native_cache": "Native evaluator already computes the medium pyramid once.",
+    "extra_cache": "Medium modulation/gating and all target-time projections, once per trajectory.",
+    "timing": "FP32 eager; batch 1; all per-trajectory cache preparation included; no CUDA Graph.",
+    "warmup": 2,
+    "repeats": 7
+  },
+  "selected_cases": [
+    {
+      "group": "ID",
+      "case": "Overthrust_shot1",
+      "repo_relative": "dataset/test/Overthrust/shot1.mat",
+      "expected_sha256": "2a924f3e9013f1a3d77f3a8c4fac6083647215c083bc1c5804d54a8e5509f894",
+      "expected_mcwp_mae": 0.0044254614819985,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Overthrust/shot1.mat",
+      "loc_x": 32
+    },
+    {
+      "group": "ID",
+      "case": "Overthrust_shot2",
+      "repo_relative": "dataset/test/Overthrust/shot2.mat",
+      "expected_sha256": "828f7eca9a2d44363d98d94d060cf8b8a7d0d39021b7d188983df354950ce7d9",
+      "expected_mcwp_mae": 0.0045536808674706,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Overthrust/shot2.mat",
+      "loc_x": 64
+    },
+    {
+      "group": "ID",
+      "case": "SEGEAGE_shot1",
+      "repo_relative": "dataset/test/SEGEAGE/shot1.mat",
+      "expected_sha256": "ec0fc75ffce6654b7f51a3782a13d884a70b54d2574c83eb6584f480d8cb7f51",
+      "expected_mcwp_mae": 0.0041134873922575,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/SEGEAGE/shot1.mat",
+      "loc_x": 32
+    },
+    {
+      "group": "ID",
+      "case": "SEGEAGE_shot2",
+      "repo_relative": "dataset/test/SEGEAGE/shot2.mat",
+      "expected_sha256": "2ca88045b19a61082a21d510901fb6e84f487d2b2a96bbb59ade3618314270c2",
+      "expected_mcwp_mae": 0.0043017795060227,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/SEGEAGE/shot2.mat",
+      "loc_x": 64
+    },
+    {
+      "group": "Marmousi_GenWP",
+      "case": "MarmousiOfficial_shot1",
+      "repo_relative": "dataset/test/Marmousi/shot1.mat",
+      "expected_sha256": "2cc5009cdfb1a5e18646ca12e1cbb961bd2fa51cba8404b99b8fc9ff26e0911c",
+      "expected_mcwp_mae": 0.0075448220474411,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Marmousi/shot1.mat",
+      "loc_x": 32
+    },
+    {
+      "group": "Marmousi_GenWP",
+      "case": "MarmousiOfficial_shot2",
+      "repo_relative": "dataset/test/Marmousi/shot2.mat",
+      "expected_sha256": "de75263543b20b82d7c0f288d4daaf981bafbc6139c4697187135ef9c6de70c7",
+      "expected_mcwp_mae": 0.006914114782282,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/test/Marmousi/shot2.mat",
+      "loc_x": 64
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Left_shot1",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot1.npz",
+      "expected_sha256": "0c50d9ec6436272ae5fd007ff30c94363b595fea8e2b916e35885021aa702f90",
+      "expected_mcwp_mae": 0.010678285939213154,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Left_shot2",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot2.npz",
+      "expected_sha256": "a3e4d9b1e5e560c64f629fbf14e319257dbeb6cc7ddf5a863b299b1c609e726d",
+      "expected_mcwp_mae": 0.010790186151691741,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Left_shot3",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot3.npz",
+      "expected_sha256": "81a6f1750cef2b7162bce67be32e41acbffb3cd73347cc504390d8f78b205fa6",
+      "expected_mcwp_mae": 0.010642250288577631,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Left_shot4",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot4.npz",
+      "expected_sha256": "87720fff2da228ccc7b08152e165238ba5d6c2f25d35e9c139fbb20b11d0d99f",
+      "expected_mcwp_mae": 0.010198323254941905,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Left_shot5",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Left_shot5.npz",
+      "expected_sha256": "8bacb9686715c40c3f521f011f6aa457f63cd12ee12b66848263b69100642395",
+      "expected_mcwp_mae": 0.0100086212191129,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Left_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Middle_shot1",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot1.npz",
+      "expected_sha256": "dc6d0a170095320956517e71263becb64c326897ac53955a0bf48a5ae0007459",
+      "expected_mcwp_mae": 0.008453686426658138,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Middle_shot2",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot2.npz",
+      "expected_sha256": "e299bc8b19c09a84664c71760c1810fea76d449942d0351d174f53cd50a6d522",
+      "expected_mcwp_mae": 0.008458227544157438,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Middle_shot3",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot3.npz",
+      "expected_sha256": "67ad0eb256ee6c63739c8490d1e27ff31f261f1f1d50e922d17095d32483d058",
+      "expected_mcwp_mae": 0.010417007691522175,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Middle_shot4",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot4.npz",
+      "expected_sha256": "e4a66244ed65bac5f0a2353408caea833d469cf68fd16e4eb87ea28df91eb90f",
+      "expected_mcwp_mae": 0.012451845474482248,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Middle_shot5",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Middle_shot5.npz",
+      "expected_sha256": "365e0e58003e04bed333bc2506d6a311439cfdb99d44945eb979dbb9ad94c624",
+      "expected_mcwp_mae": 0.009622354988937924,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Middle_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Right_shot1",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot1.npz",
+      "expected_sha256": "81db5bee31fda253371b9a53f73b88f891cdd81a6a93f2a7b6ed6cfe31a69b88",
+      "expected_mcwp_mae": 0.010112225439957278,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Right_shot2",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot2.npz",
+      "expected_sha256": "d14920056a77c2be0f6e53a026963cfd71c84db7d51bdb23f38759aeeac695b0",
+      "expected_mcwp_mae": 0.009848355868340902,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Right_shot3",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot3.npz",
+      "expected_sha256": "f08b86bb4eee035ddbef1bc61c8b86aaf5a8ef50fc7be2416afac4a7dcbcfc72",
+      "expected_mcwp_mae": 0.009717913036497727,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Right_shot4",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot4.npz",
+      "expected_sha256": "6424ade6d2c898ee1582a9e998eeb9dd761ec2105c3010644a7f977ba6ea5000",
+      "expected_mcwp_mae": 0.009948193815457971,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Marmousi_source",
+      "case": "MarmousiOriginalV1500_5000_Right_shot5",
+      "marmousi_relative": "fd_cases/MarmousiOriginalV1500_5000_Right_shot5.npz",
+      "expected_sha256": "887ed814ec0a94a4ca7fa37e708c57e0b893af0409cdad3efb4bcacbc45aab13",
+      "expected_mcwp_mae": 0.009957230189230077,
+      "path": "/home/ppaksoo/Wage_surrogate/Marmousi_Vmax5000_Evaluation/results/marmousi_raw_direct_v1500_5000/fd_cases/MarmousiOriginalV1500_5000_Right_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel1_shot1",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot1.npz",
+      "expected_sha256": "f82ed40d17be6c5f80c8adefeaea247a11b6b7721b85b5a51202d8e5f75ff404",
+      "expected_mcwp_mae": 0.0425177176484398,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel1_shot2",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot2.npz",
+      "expected_sha256": "5cd0016edbdf2b45949f62dc87f3e6883447c669599f37fdbc648a874a024fbe",
+      "expected_mcwp_mae": 0.0426079495259525,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel1_shot3",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot3.npz",
+      "expected_sha256": "cb4e53f858ef6cc069080bb50972dab595c194d97c8a35aeba58996da761b3a9",
+      "expected_mcwp_mae": 0.0429389387161156,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel1_shot4",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot4.npz",
+      "expected_sha256": "f3c86ce0bbd9268a54c75abf33daadae48f359e7e67d7920763cb0bf97f24bc4",
+      "expected_mcwp_mae": 0.0435256018112197,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel1_shot5",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot5.npz",
+      "expected_sha256": "8da85ba9948ccf1d7f7be4430784b98589831166dc82e26170df85c48f22bae7",
+      "expected_mcwp_mae": 0.0443615713596506,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel1_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel2_shot1",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot1.npz",
+      "expected_sha256": "246602be164944bb68d755c1e26b78ef94959f97daedb08ce57206d5f0b8cb84",
+      "expected_mcwp_mae": 0.0406442055916839,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel2_shot2",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot2.npz",
+      "expected_sha256": "0ca17220ab5818fb1791ba0f07fbe927ee4958bd36e8b5d2f1526e0c078c2888",
+      "expected_mcwp_mae": 0.0413556588275971,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel2_shot3",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot3.npz",
+      "expected_sha256": "bbb91b01755480decdb269738692d8a4378b49fe53f43a77b5635956ca830a6c",
+      "expected_mcwp_mae": 0.0422677676037153,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel2_shot4",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot4.npz",
+      "expected_sha256": "801d664b569ee4a91ae3cc8f1205a1a4d837ae4bb0eaa3074e39bd2f50fc6eac",
+      "expected_mcwp_mae": 0.0441734788857003,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel2_shot5",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot5.npz",
+      "expected_sha256": "794a86164633e38f07ed8bcc9359661ff1f9459660f990c086f8f89bf3b38608",
+      "expected_mcwp_mae": 0.0456839255786992,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel2_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel3_shot1",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot1.npz",
+      "expected_sha256": "6f5cf16a95e623725bb2fd0e0a6c07c579e5312933317edef707d83411166b3d",
+      "expected_mcwp_mae": 0.0459505940651734,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel3_shot2",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot2.npz",
+      "expected_sha256": "62cc0ea9c8323477c53921e90a837555b502f3952885f9bb67fe28e7fcc5e4bf",
+      "expected_mcwp_mae": 0.0441505797649205,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel3_shot3",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot3.npz",
+      "expected_sha256": "d408e85a055d011133909aec744d6c45bad32a0c390764c8423e45e84a2c14da",
+      "expected_mcwp_mae": 0.0431940469015298,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel3_shot4",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot4.npz",
+      "expected_sha256": "02869477e4a7feab2467cb44fb910cffe49e36f3bee0e6cf4848146b222b51e9",
+      "expected_mcwp_mae": 0.0448137868358408,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel3_shot5",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot5.npz",
+      "expected_sha256": "77cd2c2048c36d60502eae53f2803aa3f842ccb91df67a4b2aae990c9ece2f58",
+      "expected_mcwp_mae": 0.0461663414027821,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel3_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel4_shot1",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot1.npz",
+      "expected_sha256": "1c5365c47bc69bd2d3c32fc8f933f4246116d64fa64049a9c5fa6d06105c6f1b",
+      "expected_mcwp_mae": 0.0470892799526026,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel4_shot2",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot2.npz",
+      "expected_sha256": "825c6cabe3c393acdc7ecf77d357b4b631cec66ce9b1eca806b60d5b52571428",
+      "expected_mcwp_mae": 0.0452535723985064,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel4_shot3",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot3.npz",
+      "expected_sha256": "fcddf724cc92ee02ba9fe5a3960428d962c43ef4d3767390aeb596b13fd6bfaa",
+      "expected_mcwp_mae": 0.0448774243947017,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel4_shot4",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot4.npz",
+      "expected_sha256": "f10420523c0c536f151408b85236642f8707806ad7ba7db307c387a098d4f5af",
+      "expected_mcwp_mae": 0.0441436900359161,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "RedSea",
+      "case": "RedSea_vel4_shot5",
+      "repo_relative": "dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot5.npz",
+      "expected_sha256": "291d3991f06b36be2023a3040f8cf0d64b47dfb940f088c9039aad40f5eb8a2a",
+      "expected_mcwp_mae": 0.0408054946239591,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/redsea_ood_range_matched/outputs/RedSea_vel4_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel1_shot1",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot1.npz",
+      "expected_sha256": "07bcfffa736a8dfe9d574d41224428b43078822e03a9aeb42ce4b989e1e774a2",
+      "expected_mcwp_mae": 0.0066229533016369,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel1_shot2",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot2.npz",
+      "expected_sha256": "c142637093909447333f3bafdd8cb2aa6a0461e7be774aed2ba29b0b75ddd940",
+      "expected_mcwp_mae": 0.006299855747655,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel1_shot3",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot3.npz",
+      "expected_sha256": "3201a72c96fd9b5b8a9b41ea777e1a7495d89525afaaf06b703dccf2921e5b2f",
+      "expected_mcwp_mae": 0.0059130945289861,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel1_shot4",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot4.npz",
+      "expected_sha256": "94a4e4e02d7d9a38077976795521299169d91642fd149d0b27056eb81fe109eb",
+      "expected_mcwp_mae": 0.0059109500150484,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel1_shot5",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel1_shot5.npz",
+      "expected_sha256": "6df6eab974c6280fd6c9f5c006ac275f5695648c1f7e5a4fc13f6f0c05e75fd2",
+      "expected_mcwp_mae": 0.0069714131260467,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel1_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel2_shot1",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot1.npz",
+      "expected_sha256": "59b432339b1e2d601dacda73928fcabcf311205e0334cd7abb224a98099740b1",
+      "expected_mcwp_mae": 0.0061807269490886,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel2_shot2",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot2.npz",
+      "expected_sha256": "72bdb32919efbe85a333a1b737094e99e11b5e6a9854f0af711fa2129e930a83",
+      "expected_mcwp_mae": 0.0057948895208046,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel2_shot3",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot3.npz",
+      "expected_sha256": "6ff3513cee4258499d9d76df3e1d4b069a66e1b86700cbd28e45e3f4b8a4f247",
+      "expected_mcwp_mae": 0.0055015018515772,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel2_shot4",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot4.npz",
+      "expected_sha256": "652fbd84f4590b246e3cf263bd4b4ddee692d3c883027335c0a8e7da818efc9e",
+      "expected_mcwp_mae": 0.0055957543135362,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Kimberlina",
+      "case": "Kimberlina_vel2_shot5",
+      "repo_relative": "dataset/kimberlina_ood_outputs/Kimberlina_vel2_shot5.npz",
+      "expected_sha256": "e2947e57382dcb4920ed580298381128096bfd520d9552056ba69ed9d5138392",
+      "expected_mcwp_mae": 0.0065665857170474,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/kimberlina_ood_year0/outputs/Kimberlina_vel2_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel1_shot1",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot1.npz",
+      "expected_sha256": "440625959b12a2c7d89ac4a4530dbf9f16865f1fd6802bf8dae43db5ff711369",
+      "expected_mcwp_mae": 0.0115008549403909,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel1_shot2",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot2.npz",
+      "expected_sha256": "f1bbb7b0e16e03ba294d24a7b4f830975d19dcf6f8fa6a2cfb0f408acd165b0b",
+      "expected_mcwp_mae": 0.0120354710226461,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel1_shot3",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot3.npz",
+      "expected_sha256": "7e2c57f4b144be22721806691f5b6e6691381bd788c55985b740c058d6fd29c8",
+      "expected_mcwp_mae": 0.0127504924802705,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel1_shot4",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot4.npz",
+      "expected_sha256": "db451d4e4c2f6ce2e32dfb3400348d46994161859d8f80f9511243c309298bd6",
+      "expected_mcwp_mae": 0.0121405194001197,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel1_shot5",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel1_shot5.npz",
+      "expected_sha256": "7ea42ab99a8c4ad601c660d141fe5b765f78b1260584d3880a896e8a53a24f84",
+      "expected_mcwp_mae": 0.0114958451165022,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel1_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel2_shot1",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot1.npz",
+      "expected_sha256": "6439745634f5290e863829d61c73617f9394fa9b6fcf2fd0e0af770b8a0a094c",
+      "expected_mcwp_mae": 0.0068349792580321,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel2_shot2",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot2.npz",
+      "expected_sha256": "c6b3f93731328ef46fd194dff8510e021412ec114c40bb78758c6fb3d6686060",
+      "expected_mcwp_mae": 0.0069671245321629,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel2_shot3",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot3.npz",
+      "expected_sha256": "02a3a2cddcae2a3d331911a08e7d764026113a739ebd561ffedae6c989ab12a0",
+      "expected_mcwp_mae": 0.0072718261219397,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel2_shot4",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot4.npz",
+      "expected_sha256": "128d2a49c197f2cb83aa56398f1e6d0cbc30836c3593803e49349ec8054409ee",
+      "expected_mcwp_mae": 0.0067043384966281,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel2_shot5",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel2_shot5.npz",
+      "expected_sha256": "a43d9787904c9412ec3c58c3dbafbb437aba3531058f225a9a17fc175bdcbea9",
+      "expected_mcwp_mae": 0.007271664468059,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel2_shot5.npz",
+      "loc_x": 126
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel3_shot1",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot1.npz",
+      "expected_sha256": "951a211e13c22de91af007400ad5cf018f7efc4d8cce6ddcdcb0eab902eee5d7",
+      "expected_mcwp_mae": 0.0053803820749124,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot1.npz",
+      "loc_x": 25
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel3_shot2",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot2.npz",
+      "expected_sha256": "13ac19a081b971429f6225ff4a29c75653929842c32f09656246e6272d1a9104",
+      "expected_mcwp_mae": 0.0054745344750673,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot2.npz",
+      "loc_x": 38
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel3_shot3",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot3.npz",
+      "expected_sha256": "69b1b102007481b4ea55b532f1cd1cc2c31e468bc57634570c63a000c37e9000",
+      "expected_mcwp_mae": 0.0058598164329148,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot3.npz",
+      "loc_x": 62
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel3_shot4",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot4.npz",
+      "expected_sha256": "51cbe3acb92222d96bae0d8c25c827c3a58aa6f14f85519d6916e37440e61ece",
+      "expected_mcwp_mae": 0.0055413785400965,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot4.npz",
+      "loc_x": 105
+    },
+    {
+      "group": "Pluto",
+      "case": "Pluto_vel3_shot5",
+      "repo_relative": "dataset/pluto_ood_outputs/Pluto_vel3_shot5.npz",
+      "expected_sha256": "eb043dffe80c33a04be28d1a297e431926e5a4a5582978ef480dc52b0dae5d93",
+      "expected_mcwp_mae": 0.0063015445991909,
+      "path": "/home/ppaksoo/Wage_surrogate/GenWP-pub/dataset/pluto_ood_outputs/Pluto_vel3_shot5.npz",
+      "loc_x": 126
+    }
+  ],
+  "methods": [
+    "FD10",
+    "MCWP_standard",
+    "MCWP_cached"
+  ],
+  "warmup": 2,
+  "repeats": 7,
+  "environment": {
+    "python": "3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]",
+    "os": "Linux-5.4.0-150-generic-x86_64-with-glibc2.27",
+    "torch": "1.12.1",
+    "pytorch_cuda": "11.3",
+    "cudnn": 8302,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "device": "cuda:9",
+    "torch_threads": 64,
+    "torch_interop_threads": 64,
+    "cuda_visible_devices": null,
+    "fp32": true,
+    "tf32": false,
+    "cuda_graph": false,
+    "cudnn_benchmark": false
+  },
+  "code_sha256": {
+    "run_cache.py": "82567ff7cbd1030163240a368fe18f2f08d67a660bf4602b493c77641a40505d",
+    "cache_ops.py": "898587574b8f9b2c2219829111255e16d003f0cabc7185c9f2c8abf07702d016",
+    "fd_adapter.py": "ed821e436912841ab59c35274c89a14c1a772aed7fcad4a0a89178da8b3a03f3",
+    "reference_model.py": "7192ade5ab543e3f8cb37cf2f425b7bccde4366c72884e277d246603bf29ca65"
+  },
+  "timing_definition": {
+    "primary": "Synchronized wall time, CPU-resident Vp/initial field to GPU-resident 101-field trajectory.",
+    "fd_included": "Material/PML/wavelet construction, allocation, reset and FD updates 0..1000; store every tenth field.",
+    "mcwp_included": "Input transfer, history/output allocation, medium encoding, all extra caching once, 100 recursive updates.",
+    "excluded": "Disk I/O, checkpoint loading, warm-up, parity/accuracy checks, final CPU transfer.",
+    "initial_condition": "MCWP is conditioned on supplied FD frame 0 and four zero older fields.",
+    "cross_shot_amortization": false,
+    "accuracy_frames": "1..100; frame 0 excluded",
+    "secondary": "Primary plus a final transfer and owned CPU NumPy copy of all 101 fields.",
+    "stream_interval": "Auxiliary event interval; includes GPU idle gaps and is not summed kernel execution time.",
+    "aggregation": "Median across repeats per case, then group means, then equal weights for six groups."
+  },
+  "measurements": 1386
+}

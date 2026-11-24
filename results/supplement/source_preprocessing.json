@@ -1,0 +1,110 @@
+{
+  "Marmousi": {
+    "shape_zx": [
+      751,
+      2301
+    ],
+    "layout": "xz_C",
+    "source_sha256": "f4302792e84bb7ddbdc9d4d0f963b9df32d9f648960084884127e186119b99dd",
+    "source_range_mps": [
+      1500,
+      5500
+    ],
+    "target_range_mps": [
+      1500,
+      5000
+    ],
+    "regions": [
+      {
+        "region": "Left",
+        "min_mps": 1500.0,
+        "max_mps": 5000.0,
+        "new_velocity_sha256": "c06b449844816c9998826dbaf68d79794448defb20249196c73c7fef62faaff9",
+        "crop_zx_half_open": [
+          0,
+          751,
+          0,
+          767
+        ],
+        "resampling": "scipy.ndimage.zoom(order=1,prefilter=False), 751x767 -> 128x128"
+      },
+      {
+        "region": "Middle",
+        "min_mps": 1500.0,
+        "max_mps": 5000.0,
+        "new_velocity_sha256": "2c2c64e53d9efe0bc6af65405282d86efc259fd33330515abacd34128ed2bb00",
+        "crop_zx_half_open": [
+          0,
+          751,
+          767,
+          1534
+        ],
+        "resampling": "scipy.ndimage.zoom(order=1,prefilter=False), 751x767 -> 128x128"
+      },
+      {
+        "region": "Right",
+        "min_mps": 1500.0,
+        "max_mps": 5000.0,
+        "new_velocity_sha256": "0d34ecf470fd5e89099c24f6cdf9962441477ada8e03195961a621c00dd8c6d1",
+        "crop_zx_half_open": [
+          0,
+          751,
+          1534,
+          2301
+        ],
+        "resampling": "scipy.ndimage.zoom(order=1,prefilter=False), 751x767 -> 128x128"
+      }
+    ]
+  },
+  "Pluto": {
+    "shape_zx": [
+      1201,
+      6960
+    ],
+    "source_sha256": "a435334df891ca3c1835f71ac76362028af3b1fb7ba651bcf1a18df408446e9b",
+    "source_file": "int_depth_vp.sgy",
+    "original_unit": "ft/s",
+    "conversion_to_mps": 0.3048,
+    "regions": [
+      {
+        "model_id": 1,
+        "name": "Pluto_01_Left",
+        "source_window_zx_half_open": [
+          0,
+          1201,
+          1450,
+          2651
+        ],
+        "vp_min_mps": 1499.5919189453125,
+        "vp_max_mps": 4511.0400390625,
+        "resampling": "bilinear 1201x1201 -> 256x256 -> 128x128; no Gaussian filter"
+      },
+      {
+        "model_id": 2,
+        "name": "Pluto_02_Central",
+        "source_window_zx_half_open": [
+          0,
+          1201,
+          3300,
+          4501
+        ],
+        "vp_min_mps": 1499.5977783203125,
+        "vp_max_mps": 4511.0400390625,
+        "resampling": "bilinear 1201x1201 -> 256x256 -> 128x128; no Gaussian filter"
+      },
+      {
+        "model_id": 3,
+        "name": "Pluto_03_Right",
+        "source_window_zx_half_open": [
+          0,
+          1201,
+          4500,
+          5701
+        ],
+        "vp_min_mps": 1499.5968017578125,
+        "vp_max_mps": 4511.0400390625,
+        "resampling": "bilinear 1201x1201 -> 256x256 -> 128x128; no Gaussian filter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "study_root": "/home/ppaksoo/Wage_surrogate",
+  "work_dir": "results/marmousi_raw_direct_v1500_5000",
+  "metadata": "Marmousi_OOD/metadata.json",
+  "original_binary": "/home/ppaksoo/Wage_surrogate/vp.bin",
+  "legacy_cases_dir": "GenWP-pub/dataset/marmousi_ood_main_outputs",
+  "hard_models_dir": "Marmousi_OOD",
+  "target_velocity_min_mps": 1500.0,
+  "target_velocity_max_mps": 5000.0,
+  "genwp_repo": "GenWP-pub",
+  "neuraloperator_source": "third_party/neuraloperator_fno",
+  "models": [
+    "base",
+    "long100",
+    "fno",
+    "genwp_published",
+    "genwp_retrained",
+    "monolithic",
+    "static_fusion"
+  ],
+  "checkpoints": {
+    "base": "mcwp/runs/base/eval_checkpoints/ema_100000.pt",
+    "long100": "mcwp_nccshift_v3/runs/long100_mseonly_ft5k/eval_checkpoints/ema_004000.pt",
+    "fno": "fno_baseline/runs/fno_l_200test_workers3/eval_checkpoints/ema_100000.pt",
+    "genwp_published": "GenWP-pub/genwp/checkpoints/trained_model.pt",
+    "genwp_retrained": "GenWP-pub/experiments/genwp_ddp_20k/checkpoints/ema_0.999_100000.pt",
+    "monolithic": "mcwp_ablation/runs/monolithic_100k/eval_checkpoints/ema_100000.pt",
+    "static_fusion": "mcwp_ablation/runs/static_fusion_100k/eval_checkpoints/ema_100000.pt"
+  },
+  "raw_binary_layout": "xz_C"
+}

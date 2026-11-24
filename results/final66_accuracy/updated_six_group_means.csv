@@ -1,0 +1,43 @@
+﻿model,label,paper_group,cases,mae_mean,relative_l2_mean,origin
+base,MCWP-Base,id,4,0.00918523127574085,0.10625214035788627,historical_unchanged
+base,MCWP-Base,marmousi_official,2,0.0110567385311798,0.1148240927571081,historical_unchanged
+base,MCWP-Base,marmousi_new,15,0.012177452545979342,0.11782296993725519,new_original_Marmousi_v1500_5000
+base,MCWP-Base,redsea,20,0.04839213320137117,0.6452382593673699,historical_unchanged
+base,MCWP-Base,kimberlina,10,0.00814862464706654,0.12799709505256673,historical_unchanged
+base,MCWP-Base,pluto,15,0.010471892508731834,0.11833851446108515,historical_unchanged
+long100,MCWP-Long100,id,4,0.004348602311937325,0.0404379388948114,historical_unchanged
+long100,MCWP-Long100,marmousi_official,2,0.007229468414861551,0.06973237404112301,historical_unchanged
+long100,MCWP-Long100,marmousi_new,15,0.010086980488585282,0.09167165718986822,new_original_Marmousi_v1500_5000
+long100,MCWP-Long100,redsea,20,0.04382608129623532,0.6240942433919444,historical_unchanged
+long100,MCWP-Long100,kimberlina,10,0.00613577250714271,0.1111591727286299,historical_unchanged
+long100,MCWP-Long100,pluto,15,0.008235384797262206,0.0912114799445135,historical_unchanged
+fno,FNO,id,4,0.0206165263304098,0.2547496426984071,historical_unchanged
+fno,FNO,marmousi_official,2,0.0267734938514108,0.28584724442790105,historical_unchanged
+fno,FNO,marmousi_new,15,0.042117940452631834,0.4236414243210532,new_original_Marmousi_v1500_5000
+fno,FNO,redsea,20,0.04040193040531189,0.5508856289308934,historical_unchanged
+fno,FNO,kimberlina,10,0.017944965671975732,0.4070282882717825,historical_unchanged
+fno,FNO,pluto,15,0.026464568977850995,0.356497694828165,historical_unchanged
+genwp_published,GenWP-Published,id,4,0.00242476221917785,0.03205360164949,historical_unchanged
+genwp_published,GenWP-Published,marmousi_official,2,0.02447599421655285,0.2930941453333653,historical_unchanged
+genwp_published,GenWP-Published,marmousi_new,15,0.010147738824602523,0.09981749536930332,new_original_Marmousi_v1500_5000
+genwp_published,GenWP-Published,redsea,20,0.055108508056813235,0.6664903940518132,historical_unchanged
+genwp_published,GenWP-Published,kimberlina,10,0.04116192806738087,0.768045847823663,historical_unchanged
+genwp_published,GenWP-Published,pluto,15,0.017285709059927178,0.23028171134945233,historical_unchanged
+genwp_retrained,GenWP-Retrained,id,4,0.012126483598583124,0.16974437657150096,historical_unchanged
+genwp_retrained,GenWP-Retrained,marmousi_official,2,0.04399859024700075,0.4165971620721306,historical_unchanged
+genwp_retrained,GenWP-Retrained,marmousi_new,15,0.016683421550518586,0.1747111362545008,new_original_Marmousi_v1500_5000
+genwp_retrained,GenWP-Retrained,redsea,20,0.041287939775839576,0.5376395064893237,historical_unchanged
+genwp_retrained,GenWP-Retrained,kimberlina,10,0.06748753665702295,1.0732336232491808,historical_unchanged
+genwp_retrained,GenWP-Retrained,pluto,15,0.009724606090298434,0.12526692690568134,historical_unchanged
+monolithic,Monolithic,id,4,0.037591222188089454,0.6533639960302577,historical_unchanged
+monolithic,Monolithic,marmousi_official,2,0.037645143145536145,0.5139723706536793,historical_unchanged
+monolithic,Monolithic,marmousi_new,15,0.05861247785864974,0.9988659729832005,new_original_Marmousi_v1500_5000
+monolithic,Monolithic,redsea,20,0.0570872910935313,0.8738727349982985,historical_unchanged
+monolithic,Monolithic,kimberlina,10,0.024450151031885223,0.36682766824543045,historical_unchanged
+monolithic,Monolithic,pluto,15,0.04980990104193518,0.9375552879229485,historical_unchanged
+static_fusion,Static fusion,id,4,0.011442164150715974,0.1391886727137403,historical_unchanged
+static_fusion,Static fusion,marmousi_official,2,0.013915777890733848,0.1446345668922755,historical_unchanged
+static_fusion,Static fusion,marmousi_new,15,0.013312393314684407,0.12965316113326242,new_original_Marmousi_v1500_5000
+static_fusion,Static fusion,redsea,20,0.06133700031030437,0.8237253643786688,historical_unchanged
+static_fusion,Static fusion,kimberlina,10,0.01514942853384447,0.3186964106167453,historical_unchanged
+static_fusion,Static fusion,pluto,15,0.015058040008831793,0.2007668105985648,historical_unchanged

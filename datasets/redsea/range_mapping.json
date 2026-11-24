@@ -1,0 +1,35 @@
+{
+  "mapping": {
+    "old_global_min": 1400.0,
+    "old_global_max": 5300.0,
+    "new_global_min": 1450.0,
+    "new_global_max": 5000.0,
+    "scale": 0.9102564102564102
+  },
+  "models": {
+    "vel1": {
+      "old_min": 1400.0,
+      "old_max": 5300.0,
+      "new_min": 1450.0,
+      "new_max": 5000.0
+    },
+    "vel2": {
+      "old_min": 1400.0,
+      "old_max": 5300.0,
+      "new_min": 1450.0,
+      "new_max": 5000.0
+    },
+    "vel3": {
+      "old_min": 1400.0,
+      "old_max": 5300.0,
+      "new_min": 1450.0,
+      "new_max": 5000.0
+    },
+    "vel4": {
+      "old_min": 1400.0,
+      "old_max": 5300.0,
+      "new_min": 1450.0,
+      "new_max": 5000.0
+    }
+  }
+}

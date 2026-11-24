@@ -1,0 +1,9 @@
+# Match the original conda/CUDA stack where exact benchmark parity matters.
+numpy==1.26.4
+scipy
+h5py
+pandas
+matplotlib
+# PyTorch 1.12.1 with a compatible CUDA runtime must be installed separately.
+# NeuralOperator must be installed from commit 8a0f5260983efffbe6e8ec39c2d095dba8cb2505.
+# Install the official GenWP-pub package from its pinned original environment.

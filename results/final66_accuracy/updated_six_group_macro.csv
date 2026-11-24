@@ -1,0 +1,8 @@
+﻿model,label,cases,groups,mae_equal_group,relative_l2_equal_group,mae_equal_case,previous_mae_equal_group,aggregation
+base,MCWP-Base,66,6,0.01657201211834492,0.20507884532221188,0.0219382346740012,0.016480249789134423,"Six evaluation-group means, weight 1/6 each; 15 new Marmousi cases, 51 historical cases"
+long100,MCWP-Long100,66,6,0.013310381636004065,0.17138447769848172,0.018857093581232096,0.013199060864206974,"Six evaluation-group means, weight 1/6 each; 15 new Marmousi cases, 51 historical cases"
+fno,FNO,66,6,0.02905323761493184,0.379774987246367,0.0326096818076924,0.0270027155549743,"Six evaluation-group means, weight 1/6 each; 15 new Marmousi cases, 51 historical cases"
+genwp_published,GenWP-Published,66,6,0.025100773407409085,0.34829719926284786,0.030059730263452055,0.030883396010315516,"Six evaluation-group means, weight 1/6 each; 15 new Marmousi cases, 51 historical cases"
+genwp_retrained,GenWP-Retrained,66,6,0.031884762986543906,0.4161987885903864,0.030806934721024404,0.04001252557594439,"Six evaluation-group means, weight 1/6 each; 15 new Marmousi cases, 51 historical cases"
+monolithic,Monolithic,66,6,0.04419936439327118,0.7240763384723025,0.049064215011237616,0.041882235854216875,"Six evaluation-group means, weight 1/6 each; 15 new Marmousi cases, 51 historical cases"
+static_fusion,Static fusion,66,6,0.021702467368185815,0.2927774977222095,0.02844531823911525,0.021476448930469072,"Six evaluation-group means, weight 1/6 each; 15 new Marmousi cases, 51 historical cases"
