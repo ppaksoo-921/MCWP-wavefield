@@ -79,9 +79,8 @@ in [Data sources](docs/DATA_SOURCES.md). The recorded result tables can be
 inspected with no GPU.
 
 The 503 MB GenWP-Retrained EMA checkpoint exceeds GitHub's normal Git file
-limit. Obtain it from this repository's **Releases** page as the
-`genwp_retrained_ema_0.999_100000.pt` asset after the repository owner
-publishes release `v1.0.0`. The GenWP-Published checkpoint comes from the
+limit. Download it as the genwp_retrained_ema_0.999_100000.pt asset of [release v1.0.0](https://github.com/ppaksoo-921/MCWP-wavefield/releases/tag/v1.0.0).
+The GenWP-Published checkpoint comes from the
 upstream project. All checkpoint SHA256 values appear in
 [`weights/manifest.json`](weights/manifest.json).
 
@@ -90,8 +89,7 @@ See [User guide](docs/USER_GUIDE.md) for inputs, outputs, and flags, and
 
 ## License and citation
 
-This study's code is provided under the MIT license in `LICENSE` (copyright
-holder and authorization must be reviewed by the authors before publication).
+This study's code is provided under the MIT license in `LICENSE` (see LICENSE).
 The external GenWP code and the FD solver retain their upstream MIT notice;
 other velocity datasets retain their own source terms. See
 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md). Cite the article and source
