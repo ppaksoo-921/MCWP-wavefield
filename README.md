@@ -84,8 +84,7 @@ The GenWP-Published checkpoint comes from the
 upstream project. All checkpoint SHA256 values appear in
 [`weights/manifest.json`](weights/manifest.json).
 
-See [User guide](docs/USER_GUIDE.md) for inputs, outputs, and flags, and
-[Repository upload guide (Korean)](docs/GIT_UPLOAD_KO.md) for publication steps.
+See [User guide](docs/USER_GUIDE.md) for inputs, outputs, and flags, and flags.
 
 ## License and citation
 
